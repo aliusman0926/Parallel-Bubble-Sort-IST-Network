@@ -7,7 +7,6 @@ A parallel algorithm for constructing multiple independent spanning trees in bub
 - OpenMPI or MPICH
 - OpenMP (included with g++)
 - CMake 3.10+
-- Optional: Google Test for unit testing
 
 ## Setup
 1. Install dependencies (see installation commands in docs).
