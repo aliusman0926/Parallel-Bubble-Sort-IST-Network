@@ -12,7 +12,6 @@ std::vector<std::vector<int>> construct_ists_parallel(const BubbleSortGraph& gra
 
     std::vector<std::vector<int>> parents(vertices.size(), std::vector<int>(n - 1));
 
-    // Temporarily disable OpenMP to isolate crash
     #pragma omp parallel for
     for (size_t i = 0; i < vertices.size(); ++i) {
         int thread_id = omp_get_thread_num();
