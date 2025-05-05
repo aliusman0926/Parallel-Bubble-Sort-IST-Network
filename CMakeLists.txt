@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(MPI REQUIRED)
 find_package(OpenMP REQUIRED)
 
-# METIS (assumes installed in /usr/local)
+# METIS
 include_directories(/usr/local/include)
 link_directories(/usr/local/lib)
 
