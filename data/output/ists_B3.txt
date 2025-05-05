@@ -1,0 +1,16 @@
+Tree T_1^3:
+Vertex 123 -> Parent 213
+Vertex 132 -> Parent 312
+Vertex 213 -> Parent 123
+Vertex 231 -> Parent 321
+Vertex 312 -> Parent 132
+Vertex 321 -> Parent 231
+
+Tree T_2^3:
+Vertex 123 -> Parent 132
+Vertex 132 -> Parent 123
+Vertex 213 -> Parent 231
+Vertex 231 -> Parent 213
+Vertex 312 -> Parent 321
+Vertex 321 -> Parent 312
+

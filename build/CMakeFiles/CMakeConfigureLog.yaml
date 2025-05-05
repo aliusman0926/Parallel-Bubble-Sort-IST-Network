@@ -2794,3 +2794,70 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-To2tx4"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-To2tx4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-To2tx4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5fb7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d5fb7.dir/build.make CMakeFiles/cmTC_d5fb7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-To2tx4'
+        Building CXX object CMakeFiles/cmTC_d5fb7.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_d5fb7.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-To2tx4/test_mpi.cpp
+        Linking CXX executable cmTC_d5fb7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5fb7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_d5fb7.dir/test_mpi.cpp.o -o cmTC_d5fb7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-To2tx4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-c6N03C"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-c6N03C"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-c6N03C'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2c5b2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2c5b2.dir/build.make CMakeFiles/cmTC_2c5b2.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-c6N03C'
+        Building CXX object CMakeFiles/cmTC_2c5b2.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_2c5b2.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-c6N03C/test_mpi.cpp
+        Linking CXX executable cmTC_2c5b2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c5b2.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2c5b2.dir/test_mpi.cpp.o -o cmTC_2c5b2  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-c6N03C'
+        
+      exitCode: 0
+...

@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     // Configuration
-    const int n = 4; // Dimension of B_n (test with B_4)
+    const int n = 3; // Dimension of B_n (test with B_4)
     const std::string output_dir = "../data/output/";
 
     if (rank == 0) {
