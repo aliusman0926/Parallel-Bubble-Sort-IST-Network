@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/alius/Desktop/PDC_project/Project/src -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
+CXX_INCLUDES = -I/usr/lib/x86_64-linux-gnu/openmpi/include -I/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
 
-CXX_FLAGS =  -O3 -Wall -std=gnu++17 -fopenmp
+CXX_FLAGS =  -pg -std=gnu++17 -fopenmp
 

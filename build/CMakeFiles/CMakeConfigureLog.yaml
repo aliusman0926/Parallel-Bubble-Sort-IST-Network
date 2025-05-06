@@ -2861,3 +2861,1163 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-YKjgxc"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-YKjgxc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-YKjgxc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2485a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2485a.dir/build.make CMakeFiles/cmTC_2485a.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-YKjgxc'
+        Building CXX object CMakeFiles/cmTC_2485a.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_2485a.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-YKjgxc/test_mpi.cpp
+        Linking CXX executable cmTC_2485a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2485a.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2485a.dir/test_mpi.cpp.o -o cmTC_2485a  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-YKjgxc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-d5woQo"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-d5woQo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-d5woQo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7007e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7007e.dir/build.make CMakeFiles/cmTC_7007e.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-d5woQo'
+        Building CXX object CMakeFiles/cmTC_7007e.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_7007e.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-d5woQo/test_mpi.cpp
+        Linking CXX executable cmTC_7007e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7007e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7007e.dir/test_mpi.cpp.o -o cmTC_7007e  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-d5woQo'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-dpHxJw"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-dpHxJw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-dpHxJw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6d2da/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6d2da.dir/build.make CMakeFiles/cmTC_6d2da.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-dpHxJw'
+        Building CXX object CMakeFiles/cmTC_6d2da.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_6d2da.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-dpHxJw/test_mpi.cpp
+        Linking CXX executable cmTC_6d2da
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d2da.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_6d2da.dir/test_mpi.cpp.o -o cmTC_6d2da  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-dpHxJw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xfuV2r"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xfuV2r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xfuV2r'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_55396/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_55396.dir/build.make CMakeFiles/cmTC_55396.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xfuV2r'
+        Building CXX object CMakeFiles/cmTC_55396.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_55396.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xfuV2r/test_mpi.cpp
+        Linking CXX executable cmTC_55396
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55396.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_55396.dir/test_mpi.cpp.o -o cmTC_55396  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xfuV2r'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-buRuxx"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-buRuxx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-buRuxx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6b653/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6b653.dir/build.make CMakeFiles/cmTC_6b653.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-buRuxx'
+        Building CXX object CMakeFiles/cmTC_6b653.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_6b653.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-buRuxx/test_mpi.cpp
+        Linking CXX executable cmTC_6b653
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b653.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_6b653.dir/test_mpi.cpp.o -o cmTC_6b653  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-buRuxx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-2yUw04"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-2yUw04"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-2yUw04'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5de40/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5de40.dir/build.make CMakeFiles/cmTC_5de40.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-2yUw04'
+        Building CXX object CMakeFiles/cmTC_5de40.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_5de40.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-2yUw04/test_mpi.cpp
+        Linking CXX executable cmTC_5de40
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5de40.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_5de40.dir/test_mpi.cpp.o -o cmTC_5de40  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-2yUw04'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-70nhbr"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-70nhbr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-70nhbr'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a4517/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a4517.dir/build.make CMakeFiles/cmTC_a4517.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-70nhbr'
+        Building CXX object CMakeFiles/cmTC_a4517.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_a4517.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-70nhbr/test_mpi.cpp
+        Linking CXX executable cmTC_a4517
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4517.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_a4517.dir/test_mpi.cpp.o -o cmTC_a4517  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-70nhbr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-4fKg5m"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-4fKg5m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-4fKg5m'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7bb62/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7bb62.dir/build.make CMakeFiles/cmTC_7bb62.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-4fKg5m'
+        Building CXX object CMakeFiles/cmTC_7bb62.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_7bb62.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-4fKg5m/test_mpi.cpp
+        Linking CXX executable cmTC_7bb62
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bb62.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_7bb62.dir/test_mpi.cpp.o -o cmTC_7bb62  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-4fKg5m'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-3otmU1"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-3otmU1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-3otmU1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_538e0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_538e0.dir/build.make CMakeFiles/cmTC_538e0.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-3otmU1'
+        Building CXX object CMakeFiles/cmTC_538e0.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_538e0.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-3otmU1/test_mpi.cpp
+        Linking CXX executable cmTC_538e0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_538e0.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_538e0.dir/test_mpi.cpp.o -o cmTC_538e0  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-3otmU1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-XcBoT0"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-XcBoT0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-XcBoT0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0bf66/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0bf66.dir/build.make CMakeFiles/cmTC_0bf66.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-XcBoT0'
+        Building CXX object CMakeFiles/cmTC_0bf66.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_0bf66.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-XcBoT0/test_mpi.cpp
+        Linking CXX executable cmTC_0bf66
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bf66.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_0bf66.dir/test_mpi.cpp.o -o cmTC_0bf66  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-XcBoT0'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-v6RwKL"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-v6RwKL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-v6RwKL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e6a3f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e6a3f.dir/build.make CMakeFiles/cmTC_e6a3f.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-v6RwKL'
+        Building CXX object CMakeFiles/cmTC_e6a3f.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_e6a3f.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-v6RwKL/test_mpi.cpp
+        Linking CXX executable cmTC_e6a3f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6a3f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e6a3f.dir/test_mpi.cpp.o -o cmTC_e6a3f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-v6RwKL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-EvOyW1"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-EvOyW1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-EvOyW1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_51b63/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_51b63.dir/build.make CMakeFiles/cmTC_51b63.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-EvOyW1'
+        Building CXX object CMakeFiles/cmTC_51b63.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_51b63.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-EvOyW1/test_mpi.cpp
+        Linking CXX executable cmTC_51b63
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51b63.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_51b63.dir/test_mpi.cpp.o -o cmTC_51b63  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-EvOyW1'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-A5aE1Q"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-A5aE1Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-A5aE1Q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_edbef/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_edbef.dir/build.make CMakeFiles/cmTC_edbef.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-A5aE1Q'
+        Building CXX object CMakeFiles/cmTC_edbef.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_edbef.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-A5aE1Q/test_mpi.cpp
+        Linking CXX executable cmTC_edbef
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edbef.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_edbef.dir/test_mpi.cpp.o -o cmTC_edbef  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-A5aE1Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-WoUCu8"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-WoUCu8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-WoUCu8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d2ca8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d2ca8.dir/build.make CMakeFiles/cmTC_d2ca8.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-WoUCu8'
+        Building CXX object CMakeFiles/cmTC_d2ca8.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++17 -o CMakeFiles/cmTC_d2ca8.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-WoUCu8/test_mpi.cpp
+        Linking CXX executable cmTC_d2ca8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2ca8.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_d2ca8.dir/test_mpi.cpp.o -o cmTC_d2ca8  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-WoUCu8'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-8QSMi4"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-8QSMi4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-8QSMi4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bb24/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2bb24.dir/build.make CMakeFiles/cmTC_2bb24.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-8QSMi4'
+        Building C object CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2bb24.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2bb24.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccNBSSZp.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2bb24.dir/'
+         as -v --64 -o CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o /tmp/ccNBSSZp.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_2bb24
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bb24.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o -o cmTC_2bb24 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bb24' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2bb24.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cceIzqA6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2bb24 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bb24' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2bb24.'
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-8QSMi4'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-8QSMi4']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bb24/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2bb24.dir/build.make CMakeFiles/cmTC_2bb24.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-8QSMi4']
+        ignore line: [Building C object CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2bb24.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2bb24.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccNBSSZp.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2bb24.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o /tmp/ccNBSSZp.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_2bb24]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bb24.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o -o cmTC_2bb24 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bb24' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2bb24.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cceIzqA6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2bb24 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cceIzqA6.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2bb24] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_2bb24.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-sgq12R"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-sgq12R"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-sgq12R'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c7d5f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c7d5f.dir/build.make CMakeFiles/cmTC_c7d5f.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-sgq12R'
+        Building C object CMakeFiles/cmTC_c7d5f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c7d5f.dir/test_mpi.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-sgq12R/test_mpi.c
+        Linking C executable cmTC_c7d5f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7d5f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c7d5f.dir/test_mpi.c.o -o cmTC_c7d5f  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-sgq12R'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lklZf2"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lklZf2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lklZf2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9fa67/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9fa67.dir/build.make CMakeFiles/cmTC_9fa67.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lklZf2'
+        Building CXX object CMakeFiles/cmTC_9fa67.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_9fa67.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lklZf2/test_mpi.cpp
+        Linking CXX executable cmTC_9fa67
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fa67.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_9fa67.dir/test_mpi.cpp.o -o cmTC_9fa67  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lklZf2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-QaGjVX"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-QaGjVX"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-QaGjVX'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b2cc3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b2cc3.dir/build.make CMakeFiles/cmTC_b2cc3.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-QaGjVX'
+        Building CXX object CMakeFiles/cmTC_b2cc3.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_b2cc3.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-QaGjVX/test_mpi.cpp
+        Linking CXX executable cmTC_b2cc3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2cc3.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_b2cc3.dir/test_mpi.cpp.o -o cmTC_b2cc3  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-QaGjVX'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_87ac7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_87ac7.dir/build.make CMakeFiles/cmTC_87ac7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1'
+        Building C object CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1/OpenMPTryFlag.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_87ac7.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_87ac7.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2d0u4O.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_87ac7.dir/'
+         as -v --64 -o CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o /tmp/cc2d0u4O.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_87ac7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ac7.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o -o cmTC_87ac7  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_87ac7' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_87ac7.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ3DtMK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_87ac7 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_87ac7' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_87ac7.'
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:262 (message)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:8 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_87ac7/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_87ac7.dir/build.make CMakeFiles/cmTC_87ac7.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1']
+        ignore line: [Building C object CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o]
+        ignore line: [/usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1/OpenMPTryFlag.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_87ac7.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-M5Ujr1/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_87ac7.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc2d0u4O.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_87ac7.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o /tmp/cc2d0u4O.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.']
+        ignore line: [Linking C executable cmTC_87ac7]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ac7.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o -o cmTC_87ac7  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/13/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_87ac7' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_87ac7.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ3DtMK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_87ac7 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/13/crtoffloadend.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJ3DtMK.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_87ac7] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_87ac7.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-7uRUdx"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-7uRUdx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-7uRUdx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ae9e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7ae9e.dir/build.make CMakeFiles/cmTC_7ae9e.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-7uRUdx'
+        Building C object CMakeFiles/cmTC_7ae9e.dir/OpenMPCheckVersion.c.o
+        /usr/bin/cc   -fopenmp -o CMakeFiles/cmTC_7ae9e.dir/OpenMPCheckVersion.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-7uRUdx/OpenMPCheckVersion.c
+        Linking C executable cmTC_7ae9e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ae9e.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp CMakeFiles/cmTC_7ae9e.dir/OpenMPCheckVersion.c.o -o cmTC_7ae9e 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-7uRUdx'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-svDwsM"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-svDwsM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-svDwsM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0bd98/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0bd98.dir/build.make CMakeFiles/cmTC_0bd98.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-svDwsM'
+        Building C object CMakeFiles/cmTC_0bd98.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_0bd98.dir/test_mpi.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-svDwsM/test_mpi.c
+        Linking C executable cmTC_0bd98
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bd98.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_0bd98.dir/test_mpi.c.o -o cmTC_0bd98  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-svDwsM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-w2Jn6f"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-w2Jn6f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-w2Jn6f'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_66461/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_66461.dir/build.make CMakeFiles/cmTC_66461.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-w2Jn6f'
+        Building CXX object CMakeFiles/cmTC_66461.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_66461.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-w2Jn6f/test_mpi.cpp
+        Linking CXX executable cmTC_66461
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66461.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_66461.dir/test_mpi.cpp.o -o cmTC_66461  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-w2Jn6f'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-ZXTA43"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-ZXTA43"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-ZXTA43'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9607b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9607b.dir/build.make CMakeFiles/cmTC_9607b.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-ZXTA43'
+        Building CXX object CMakeFiles/cmTC_9607b.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_9607b.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-ZXTA43/test_mpi.cpp
+        Linking CXX executable cmTC_9607b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9607b.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_9607b.dir/test_mpi.cpp.o -o cmTC_9607b  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-ZXTA43'
+        
+      exitCode: 0
+...

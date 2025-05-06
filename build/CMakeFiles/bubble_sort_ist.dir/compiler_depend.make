@@ -118,19 +118,12 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/algorithm/ist_construct.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -162,8 +155,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/algorithm/ist_construct.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -289,19 +280,12 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/graph/bubble_sort_graph.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -333,8 +317,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/graph/bubble_sort_graph.cpp.o: 
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -528,22 +510,13 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/main.cpp.o: /mnt/c/Users/alius/
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -581,8 +554,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/main.cpp.o: /mnt/c/Users/alius/
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -789,22 +760,13 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/parallel/metis_partition.cpp.o:
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -842,8 +804,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/parallel/metis_partition.cpp.o:
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -1052,22 +1012,13 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/parallel/mpi_utils.cpp.o: /mnt/
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1105,8 +1056,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/parallel/mpi_utils.cpp.o: /mnt/
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -1313,22 +1262,13 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/parallel/openmp_utils.cpp.o: /m
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1366,8 +1306,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/parallel/openmp_utils.cpp.o: /m
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -1560,20 +1498,11 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/logging.cpp.o: /mnt/c/Use
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
-  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1611,8 +1540,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/logging.cpp.o: /mnt/c/Use
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -1798,18 +1725,11 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1847,8 +1767,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -1928,17 +1846,9 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
@@ -1965,8 +1875,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h:
 
@@ -2006,11 +1914,11 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/typeinfo:
 
+/usr/include/c++/13/bits/range_access.h:
+
+/usr/include/c++/13/system_error:
+
 /usr/include/c++/13/pstl/pstl_config.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/c++/13/initializer_list:
 
@@ -2036,8 +1944,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /mnt/c/Users/alius/Desktop/PDC_project/Project/BubbleSortIST/src/graph/bubble_sort_graph.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/select-decl.h:
-
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/cstdint:
@@ -2060,13 +1966,7 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
-/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
-
 /usr/include/c++/13/cctype:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/13/ext/atomicity.h:
 
 /usr/include/c++/13/bits/vector.tcc:
 
@@ -2080,6 +1980,8 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
 /usr/include/c++/13/bits/uses_allocator.h:
 
 /usr/include/c++/13/bits/postypes.h:
@@ -2090,11 +1992,21 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/13/iomanip:
+
+/usr/include/strings.h:
+
 /usr/include/c++/13/tuple:
 
 /usr/include/c++/13/bits/nested_exception.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -2112,6 +2024,8 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/bits/functexcept.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+
 /mnt/c/Users/alius/Desktop/PDC_project/Project/BubbleSortIST/src/parallel/mpi_utils.hpp:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
@@ -2122,15 +2036,7 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/cstddef:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
 /usr/include/c++/13/bits/stl_algo.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
 /usr/include/c++/13/bits/erase_if.h:
 
@@ -2144,21 +2050,25 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
-
 /usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
 /usr/include/c++/13/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/c++/13/streambuf:
 
 /usr/include/stdc-predef.h:
 
@@ -2168,19 +2078,11 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/debug/debug.h:
 
-/usr/include/c++/13/bits/range_access.h:
-
-/usr/include/c++/13/system_error:
-
 /usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/c++/13/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
 
 /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intercomm_inln.h:
 
@@ -2222,16 +2124,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/bits/stl_bvector.h:
 
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/c++/13/streambuf:
-
 /usr/include/c++/13/bits/invoke.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
@@ -2248,15 +2140,9 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/map:
 
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/string.h:
-
 /usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/unordered_map.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/c++/13/bits/quoted_string.h:
 
@@ -2279,20 +2165,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/13/iomanip:
-
-/usr/include/strings.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -2324,6 +2196,8 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /mnt/c/Users/alius/Desktop/PDC_project/Project/BubbleSortIST/src/parallel/mpi_utils.cpp:
@@ -2341,8 +2215,6 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 /usr/include/c++/13/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
@@ -2386,19 +2258,17 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/bits/stl_tempbuf.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/c++/13/pstl/execution_defs.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /mnt/c/Users/alius/Desktop/PDC_project/Project/BubbleSortIST/src/parallel/metis_partition.hpp:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
 /usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
@@ -2470,6 +2340,10 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/c++/13/filesystem:
 
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
 /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/intracomm.h:
 
 /usr/include/c++/13/ios:
@@ -2486,14 +2360,36 @@ CMakeFiles/bubble_sort_ist.dir/BubbleSortIST/src/utils/permutation.cpp.o: /mnt/c
 
 /usr/include/pthread.h:
 
+/usr/include/string.h:
+
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
-/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
-
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/c++/13/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:

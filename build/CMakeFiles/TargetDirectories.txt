@@ -1,4 +1,3 @@
 /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/bubble_sort_ist.dir
-/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/test.dir
 /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/edit_cache.dir
 /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/rebuild_cache.dir
