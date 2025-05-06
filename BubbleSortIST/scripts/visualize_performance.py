@@ -30,7 +30,7 @@ gprof_times = {}
 for n in n_values:
     total_times[n] = {}
     section_times[n] = {}
-    for np_val in np_values:  # Avoid using 'np' as a loop variable
+    for np_val in np_values:
         total_times[n][np_val] = {}
         section_times[n][np_val] = {}
         for threads in threads_values:
@@ -78,7 +78,7 @@ for n in n_values:
 # Parse gprof files for function-level times
 for n in n_values:
     gprof_times[n] = {}
-    for np_val in np_values:  # Avoid using 'np' as a loop variable
+    for np_val in np_values:
         gprof_times[n][np_val] = {}
         for threads in threads_values:
             gprof_file = os.path.join(log_dir, f"gprof_n{n}_np{np_val}_threads{threads}.txt")
@@ -108,7 +108,6 @@ for n in n_values:
                                 else:
                                     self_time = float(self_time_str)
                                 gprof_times[n][np_val][threads][func_name] = self_time
-                                print(f"Parsed {func_name}: {self_time} seconds")
                             except ValueError as e:
                                 print(f"Error parsing time for {func_name}: {self_time_str} - {e}")
                                 gprof_times[n][np_val][threads][func_name] = 0.0
@@ -224,6 +223,26 @@ for n in n_values:
     plt.legend()
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f"function_time_n{n}.png"))
+    plt.close()
+
+# Plot 5: Parallel Time (Total - Graph)
+for n in n_values:
+    plt.figure(figsize=(10, 6))
+    labels = []
+    parallel_times = []
+    for np_val in np_values:
+        for threads in threads_values:
+            if np_val in section_times[n] and threads in section_times[n][np_val]:
+                labels.append(f"np={np_val}, t={threads}")
+                parallel_time = section_times[n][np_val][threads]["Total"] - section_times[n][np_val][threads]["Graph"]
+                parallel_times.append(parallel_time)
+    plt.bar(labels, parallel_times)
+    plt.xlabel("Configuration (MPI Processes, OpenMP Threads)")
+    plt.ylabel("Parallel Execution Time (seconds)")
+    plt.title(f"Parallel Time (Total - Graph) for n={n}")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, f"parallel_time_n{n}.png"))
     plt.close()
 
 print(f"Plots saved in {output_dir}")

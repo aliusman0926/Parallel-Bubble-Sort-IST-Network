@@ -6,92 +6,92 @@
 [INFO][Rank 0] Converted graph to METIS format: xadj size=25, adjncy size=72
 [INFO][Rank 0] Rank 0: xadj = [0 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 ], adjncy = [6 2 1 7 4 0 12 0 3 13 5 2 18 1 5 19 3 4 0 8 7 1 10 6 14 6 9 15 11 8 20 7 11 21 9 10 2 14 13 3 16 12 8 12 15 9 17 14 22 13 17 23 15 16 4 20 19 5 22 18 10 18 21 11 23 20 16 19 23 17 21 22 ]
 [INFO][Rank 0] Rank 0: METIS parameters: nvtxs = 24, ncon = 1, nparts = 2
+[INFO][Rank 1] BubbleSortGraph constructed with n=4, vertices=24
+[INFO][Rank 1] Rank 1: Starting METIS partitioning for 24 vertices, nparts = 2
+[INFO][Rank 1] Converted graph to METIS format: xadj size=25, adjncy size=72
+[INFO][Rank 1] Rank 1: xadj = [0 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 ], adjncy = [6 2 1 7 4 0 12 0 3 13 5 2 18 1 5 19 3 4 0 8 7 1 10 6 14 6 9 15 11 8 20 7 11 21 9 10 2 14 13 3 16 12 8 12 15 9 17 14 22 13 17 23 15 16 4 20 19 5 22 18 10 18 21 11 23 20 16 19 23 17 21 22 ]
 [INFO][Rank 0] Rank 0: METIS partitioning completed, objval = 6
 [INFO][Rank 0] Rank 0: Partitioning completed, partition size = 24
 [INFO][Rank 0] Rank 0: Assigned 12 local vertices.
 [INFO][Rank 0] Rank 0: Starting parallel IST construction for 12 vertices.
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 8
 [INFO][Rank 0] Computing parent1 for vertex 8, tree T_1
-[INFO][Rank [INFO][Rank 0] Parent of vertex 8 in T_1 is 14
+[INFO][Rank 0] Parent of vertex 8 in T_1 is 14
 [INFO][Rank 0] Computing parent1 for vertex 8, tree T_2
-0[INFO][Rank 0] Parent of vertex 8 in T_2 is 6
+[INFO][Rank 0] Parent of vertex 8 in T_2 is 6
 [INFO][Rank 0] Computing parent1 for vertex 8, tree T_3
 [INFO][Rank 0] Parent of vertex 8 in T_3 is 9
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 9
-] [INFO][Rank 0] Computing parent1 for vertex 9, tree T_1
+[INFO][Rank 0] Computing parent1 for vertex 9, tree T_1
 [INFO][Rank 0] Parent of vertex 9 in T_1 is 15
-[INFO][Rank 1] BubbleSortGraph constructed with n=4, vertices=24
-[INFO][Rank 0] Computing parent1 for vertex 9, tree T_2Rank 0, Thread 1: Processing vertex 15
-[INFO][Rank 1] Rank 1: Starting METIS partitioning for 24 vertices, nparts = 2
-
-[INFO][Rank 0] Computing parent1 for vertex 15, tree T_1
-[INFO][Rank 0] Parent of vertex 15 in T_1 is 9
-[INFO][Rank 0] Computing parent1 for vertex 15, tree T_2
-[INFO][Rank 0] Parent of vertex 15 in T_2 is 17
-[INFO][Rank 0] Computing parent1 for vertex 15, tree T_3
-[INFO][Rank 0] Parent of vertex 15 in T_3 is 14
-[INFO][Rank [INFO][Rank 0] Rank 0, Thread 1: Processing vertex 16
-[INFO][Rank 0] Computing parent1 for vertex 16, tree T_1
-[INFO][Rank 0] Parent of vertex 16 in T_1 is 22
-0[INFO][Rank ] Parent of vertex 9 in T_2 is 11
+[INFO][Rank 0] Computing parent1 for vertex 9, tree T_2
+[INFO][Rank 0] Parent of vertex 9 in T_2 is 11
 [INFO][Rank 0] Computing parent1 for vertex 9, tree T_3
 [INFO][Rank 0] Parent of vertex 9 in T_3 is 8
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 11
 [INFO][Rank 0] Computing parent1 for vertex 11, tree T_1
 [INFO][Rank 0] Parent of vertex 11 in T_1 is 21
-[INFO][Rank 1] Converted graph to METIS format: xadj size=25, adjncy size=72
-[INFO][Rank 00] Computing parent1 for vertex 11, tree T_2
-[INFO][Rank 0] Parent of vertex 11 in T_2 is 9] 
+[INFO][Rank 0] Computing parent1 for vertex 11, tree T_2
+[INFO][Rank 0] Parent of vertex 11 in T_2 is 9
 [INFO][Rank 0] Computing parent1 for vertex 11, tree T_3
 [INFO][Rank 0] Parent of vertex 11 in T_3 is 10
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 12
 [INFO][Rank 0] Computing parent1 for vertex 12, tree T_1
 [INFO][Rank 0] Parent of vertex 12 in T_1 is 2
 [INFO][Rank 0] Computing parent1 for vertex 12, tree T_2
-[INFO][Rank 1] Rank 1: xadj = [0 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 ], adjncy = [6 2 1 7 4 0 12 0 3 13 5 2 18 1 5 19 3 4 0 8 7 1 10 6 14 6 9 15 11 8 20 7 11 21 9 10 2 14 13 3 16 12 8 12 15 9 17 14 22 13 17 23 15 16 4 20 19 5 22 18 10 18 21 11 23 20 16 19 23 17 21 22 ]
-[INFO][Rank 1] Rank 1: METIS parameters: nvtxs = 24, ncon = 1, nparts = 2
 [INFO][Rank 0] Parent of vertex 12 in T_2 is 14
 [INFO][Rank 0] Computing parent1 for vertex 12, tree T_3
-Computing parent1 for vertex 16, tree T_2[INFO][Rank 0] Parent of vertex 12 in T_3 is 13
+[INFO][Rank 0] Parent of vertex 12 in T_3 is 13
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 13
 [INFO][Rank 0] Computing parent1 for vertex 13, tree T_1
 [INFO][Rank 0] Parent of vertex 13 in T_1 is 3
 [INFO][Rank 0] Computing parent1 for vertex 13, tree T_2
-
+[INFO][Rank 0] Parent of vertex 13 in T_2 is 16
+[INFO][Rank 0] Computing parent1 for vertex 13, tree T_3
+[INFO][Rank 0] Parent of vertex 13 in T_3 is 12
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 14
+[INFO][Rank 0] Computing parent1 for vertex 14, tree T_1
+[INFO][Rank 0] Parent of vertex 14 in T_1 is 8
+[INFO][Rank 0] Computing parent1 for vertex 14, tree T_2
+[INFO][Rank 0] Parent of vertex 14 in T_2 is 12
+[INFO][Rank 0] Computing parent1 for vertex 14, tree T_3
+[INFO][Rank 0] Parent of vertex 14 in T_3 is 15
+[INFO][Rank 1] Rank 1: METIS parameters: nvtxs = 24, ncon = 1, nparts = 2
+[INFO][Rank 1] Rank 1: METIS partitioning completed, objval = 6
+[INFO][Rank 1] Rank 1: Starting parallel IST construction for 12 vertices.
+[INFO][Rank 0] Rank 0, Thread 1: Processing vertex 15
+[INFO][Rank 0] Computing parent1 for vertex 15, tree T_1
+[INFO][Rank 0] Parent of vertex 15 in T_1 is 9
+[INFO][Rank 0] Computing parent1 for vertex 15, tree T_2
+[INFO][Rank 0] Parent of vertex 15 in T_2 is 17
+[INFO][Rank 0] Computing parent1 for vertex 15, tree T_3
+[INFO][Rank 0] Parent of vertex 15 in T_3 is 14
+[INFO][Rank 0] Rank 0, Thread 1: Processing vertex 16
+[INFO][Rank 0] Computing parent1 for vertex 16, tree T_1
+[INFO][Rank 0] Parent of vertex 16 in T_1 is 22
+[INFO][Rank 0] Computing parent1 for vertex 16, tree T_2
 [INFO][Rank 0] Parent of vertex 16 in T_2 is 13
 [INFO][Rank 0] Computing parent1 for vertex 16, tree T_3
 [INFO][Rank 0] Parent of vertex 16 in T_3 is 17
-[INFO][Rank [INFO][Rank 0] Parent of vertex 13 in T_2 is 160] Rank 0, Thread 1: Processing vertex 17
+[INFO][Rank 0] Rank 0, Thread 1: Processing vertex 17
 [INFO][Rank 0] Computing parent1 for vertex 17, tree T_1
 [INFO][Rank 0] Parent of vertex 17 in T_1 is 23
 [INFO][Rank 0] Computing parent1 for vertex 17, tree T_2
 [INFO][Rank 0] Parent of vertex 17 in T_2 is 15
-
-[INFO][Rank [INFO][Rank 0] Computing parent1 for vertex 13, tree T_3
-[INFO][Rank 0] Parent of vertex 13 in T_3 is 12
-[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 14
-[INFO][Rank 0] Computing parent1 for vertex 14, tree T_1
-0[INFO][Rank 0] Parent of vertex 14 in T_1 is 8] 
-[INFO][Rank 0] Computing parent1 for vertex 14, tree T_2
-[INFO][Rank 0] Parent of vertex 14 in T_2 is 12
-[INFO][Rank Computing parent1 for vertex 17, tree T_30
+[INFO][Rank 0] Computing parent1 for vertex 17, tree T_3
 [INFO][Rank 0] Parent of vertex 17 in T_3 is 16
 [INFO][Rank 0] Rank 0, Thread 1: Processing vertex 21
 [INFO][Rank 0] Computing parent1 for vertex 21, tree T_1
 [INFO][Rank 0] Parent of vertex 21 in T_1 is 11
-[INFO][Rank 1] Rank 1: METIS partitioning completed, objval = 6
-] [INFO][Rank 0] Computing parent1 for vertex 21, tree T_2
+[INFO][Rank 0] Computing parent1 for vertex 21, tree T_2
 [INFO][Rank 0] Parent of vertex 21 in T_2 is 23
 [INFO][Rank 0] Computing parent1 for vertex 21, tree T_3
 [INFO][Rank 0] Parent of vertex 21 in T_3 is 20
 [INFO][Rank 0] Rank 0, Thread 1: Processing vertex 22
 [INFO][Rank 0] Computing parent1 for vertex 22, tree T_1
 [INFO][Rank 0] Parent of vertex 22 in T_1 is 16
-[INFO][Rank 1] Rank 1: Starting parallel IST construction for 12 vertices.
-Computing parent1 for vertex 14, tree T_3[INFO][Rank 0] Computing parent1 for vertex 22, tree T_2
-
-[INFO][Rank [INFO][Rank 0] Parent of vertex 22 in T_2 is 190
-] Parent of vertex 14 in T_3 is 15
+[INFO][Rank 0] Computing parent1 for vertex 22, tree T_2
+[INFO][Rank 0] Parent of vertex 22 in T_2 is 19
 [INFO][Rank 0] Computing parent1 for vertex 22, tree T_3
 [INFO][Rank 0] Parent of vertex 22 in T_3 is 23
 [INFO][Rank 0] Rank 0, Thread 1: Processing vertex 23
@@ -105,7 +105,7 @@ Computing parent1 for vertex 14, tree T_3[INFO][Rank 0] Computing parent1 for ve
 [INFO][Rank 0] Rank 0: Local IST construction completed, parents size = 12
 [INFO][Rank 0] Rank 0: Entering gather_parents, local_parents size = 12
 [INFO][Rank 0] Rank 0: Gathering counts, local_size = 36
-[INFO][Rank [INFO][Rank 1] 1Rank 1, Thread 0: Processing vertex 0
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 0
 [INFO][Rank 1] Computing parent1 for vertex 0, tree T_1
 [INFO][Rank 1] Parent of vertex 0 in T_1 is 6
 [INFO][Rank 1] Computing parent1 for vertex 0, tree T_2
@@ -147,7 +147,7 @@ Computing parent1 for vertex 14, tree T_3[INFO][Rank 0] Computing parent1 for ve
 [INFO][Rank 1] Parent of vertex 5 in T_2 is 3
 [INFO][Rank 1] Computing parent1 for vertex 5, tree T_3
 [INFO][Rank 1] Parent of vertex 5 in T_3 is 4
-] Rank 1, Thread 1: Processing vertex 6
+[INFO][Rank 1] Rank 1, Thread 1: Processing vertex 6
 [INFO][Rank 1] Computing parent1 for vertex 6, tree T_1
 [INFO][Rank 1] Parent of vertex 6 in T_1 is 0
 [INFO][Rank 1] Computing parent1 for vertex 6, tree T_2
@@ -201,22 +201,22 @@ Computing parent1 for vertex 14, tree T_3[INFO][Rank 0] Computing parent1 for ve
 [INFO][Rank 0] Rank 0: Gathered all parents, size = 24
 [INFO][Rank 0] Output written to data/output/ists_B4.txt
 [INFO][Rank 0] IST construction completed. Results written to data/output/ists_B4.txt
-[INFO][Rank 0] Timing: Graph=0.004230s, Partition=0.001135s, LocalVertices=0.000032s, IST=0.002174s, Gather=0.013241s, Output=0.011584s, Total=0.032396s
+[INFO][Rank 0] Timing: Graph=0.004607s, Partition=0.001208s, LocalVertices=0.000086s, IST=0.003566s, Gather=0.006687s, Output=0.011694s, Total=0.027847s
 	Command being timed: "mpirun -np 2 --oversubscribe ./bubble_sort_ist"
-	User time (seconds): 0.12
-	System time (seconds): 0.08
-	Percent of CPU this job got: 47%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	User time (seconds): 0.08
+	System time (seconds): 0.11
+	Percent of CPU this job got: 46%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.41
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 83400
+	Maximum resident set size (kbytes): 85636
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 78
-	Minor (reclaiming a frame) page faults: 9228
-	Voluntary context switches: 2691
-	Involuntary context switches: 45
+	Major (requiring I/O) page faults: 79
+	Minor (reclaiming a frame) page faults: 9182
+	Voluntary context switches: 2683
+	Involuntary context switches: 216
 	Swaps: 0
 	File system inputs: 600
 	File system outputs: 112

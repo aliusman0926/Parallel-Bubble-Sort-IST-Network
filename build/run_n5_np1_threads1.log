@@ -1098,22 +1098,22 @@
 [INFO][Rank 0] Rank 0: Gathered all parents, size = 120
 [INFO][Rank 0] Output written to data/output/ists_B5.txt
 [INFO][Rank 0] IST construction completed. Results written to data/output/ists_B5.txt
-[INFO][Rank 0] Timing: Graph=0.011907s, Partition=0.000021s, LocalVertices=0.000031s, IST=0.019888s, Gather=0.000631s, Output=0.020803s, Total=0.053281s
+[INFO][Rank 0] Timing: Graph=0.013596s, Partition=0.000021s, LocalVertices=0.000018s, IST=0.018232s, Gather=0.000760s, Output=0.011721s, Total=0.044347s
 	Command being timed: "mpirun -np 1 --oversubscribe ./bubble_sort_ist"
-	User time (seconds): 0.10
-	System time (seconds): 0.01
-	Percent of CPU this job got: 28%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	User time (seconds): 0.08
+	System time (seconds): 0.06
+	Percent of CPU this job got: 33%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.41
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 85504
+	Maximum resident set size (kbytes): 85544
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 22
-	Minor (reclaiming a frame) page faults: 7683
-	Voluntary context switches: 1391
-	Involuntary context switches: 21
+	Minor (reclaiming a frame) page faults: 7682
+	Voluntary context switches: 1471
+	Involuntary context switches: 9
 	Swaps: 0
 	File system inputs: 512
 	File system outputs: 104

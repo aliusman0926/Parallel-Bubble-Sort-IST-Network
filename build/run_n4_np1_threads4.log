@@ -7,62 +7,9 @@
 [INFO][Rank 0] Rank 0: Partitioning completed, partition size = 24
 [INFO][Rank 0] Rank 0: Assigned 24 local vertices.
 [INFO][Rank 0] Rank 0: Starting parallel IST construction for 24 vertices.
-[INFO][Rank [INFO][Rank 00] Rank 0, Thread 1: Processing vertex 6] Rank 0, Thread 2: Processing vertex 12
-[INFO][Rank 0] Computing parent1 for vertex 6, tree T_1
-
-[INFO][Rank [INFO][Rank [INFO][Rank 0] Parent of vertex 6 in T_1 is 0
-[INFO][Rank 0] 0Computing parent1 for vertex 6, tree T_2
-[INFO][Rank 0] Parent of vertex 6 in T_2 is 8] 
-[INFO][Rank 0] Computing parent1 for vertex 6, tree T_3
-[INFO][Rank [INFO][Rank 0] Parent of vertex 6 in T_3 is 7
-[INFO][Rank 0] Rank 0, Thread 1: Processing vertex 7
-[INFO][Rank 0] Computing parent1 for vertex 7, tree T_1
-[INFO][Rank 0] Parent of vertex 7 in T_1 is 1
-Computing parent1 for vertex 12, tree T_1[INFO][Rank 0] Computing parent1 for vertex 7, tree T_2
-
-[INFO][Rank 0] Parent of vertex 12 in T_1 is 2
-[INFO][Rank 0] Computing parent1 for vertex 12, tree T_2
-[INFO][Rank 0] Parent of vertex 12 in T_2 is 14
-[INFO][Rank 0] Computing parent1 for vertex 12, tree T_3
-[INFO][Rank 0] Parent of vertex 12 in T_3 is 13
-[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 13
-[INFO][Rank 0] Computing parent1 for vertex 13, tree T_1
-[INFO][Rank 0] Parent of vertex 13 in T_1 is 3
-[INFO][Rank 0] Computing parent1 for vertex 13, tree T_2
-[INFO][Rank 0] Parent of vertex 13 in T_2 is 16
-[INFO][Rank 0] Computing parent1 for vertex 13, tree T_3
-[INFO][Rank 0] Parent of vertex 13 in T_3 is 12
-[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 14
-[INFO][Rank 0] Computing parent1 for vertex 14, tree T_1
-[INFO][Rank 0] Parent of vertex 14 in T_1 is 8
-[INFO][Rank 0] Computing parent1 for vertex 14, tree T_2
-[INFO][Rank 0] Parent of vertex 14 in T_2 is 12
-[INFO][Rank 0] Computing parent1 for vertex 14, tree T_3
-[INFO][Rank 0] Parent of vertex 14 in T_3 is 15
-[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 15
-[INFO][Rank 0] Computing parent1 for vertex 15, tree T_1
-[INFO][Rank 0] Parent of vertex 15 in T_1 is 9
-[INFO][Rank 0] Computing parent1 for vertex 15, tree T_2
-[INFO][Rank 0] Parent of vertex 15 in T_2 is 17
-[INFO][Rank 0] Computing parent1 for vertex 15, tree T_3
-[INFO][Rank 0] Parent of vertex 15 in T_3 is 14
-[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 16
-[INFO][Rank 0] Computing parent1 for vertex 16, tree T_1
-[INFO][Rank 0] Parent of vertex 16 in T_1 is 22
-[INFO][Rank 0] Computing parent1 for vertex 16, tree T_2
-[INFO][Rank 0] Parent of vertex 16 in T_2 is 13
-[INFO][Rank 0] Computing parent1 for vertex 16, tree T_3
-[INFO][Rank 0] Parent of vertex 16 in T_3 is 17
-[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 17
-[INFO][Rank 0] Computing parent1 for vertex 17, tree T_1
-[INFO][Rank 0] Parent of vertex 17 in T_1 is 23
-[INFO][Rank 0] Computing parent1 for vertex 17, tree T_2
-[INFO][Rank 0] Parent of vertex 17 in T_2 is 15
-[INFO][Rank 0] Computing parent1 for vertex 17, tree T_3
-[INFO][Rank 0] Parent of vertex 17 in T_3 is 16
-0] Rank 0, Thread 0: Processing vertex 0
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 0
 [INFO][Rank 0] Computing parent1 for vertex 0, tree T_1
-0[INFO][Rank 0] Parent of vertex 0 in T_1 is 6
+[INFO][Rank 0] Parent of vertex 0 in T_1 is 6
 [INFO][Rank 0] Computing parent1 for vertex 0, tree T_2
 [INFO][Rank 0] Parent of vertex 0 in T_2 is 2
 [INFO][Rank 0] Computing parent1 for vertex 0, tree T_3
@@ -79,33 +26,46 @@ Computing parent1 for vertex 12, tree T_1[INFO][Rank 0] Computing parent1 for ve
 [INFO][Rank 0] Parent of vertex 2 in T_1 is 12
 [INFO][Rank 0] Computing parent1 for vertex 2, tree T_2
 [INFO][Rank 0] Parent of vertex 2 in T_2 is 0
-] [INFO][Rank 0] Computing parent1 for vertex 2, tree T_3
+[INFO][Rank 0] Computing parent1 for vertex 2, tree T_3
 [INFO][Rank 0] Parent of vertex 2 in T_3 is 3
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 3
 [INFO][Rank 0] Computing parent1 for vertex 3, tree T_1
 [INFO][Rank 0] Parent of vertex 3 in T_1 is 13
 [INFO][Rank 0] Computing parent1 for vertex 3, tree T_2
 [INFO][Rank 0] Parent of vertex 3 in T_2 is 5
-[INFO][Rank [INFO][Rank 0] Computing parent1 for vertex 3, tree T_3
+[INFO][Rank 0] Computing parent1 for vertex 3, tree T_3
 [INFO][Rank 0] Parent of vertex 3 in T_3 is 2
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 4
-[INFO][Rank 0] Computing parent1 for vertex 4, tree T_10
+[INFO][Rank 0] Computing parent1 for vertex 4, tree T_1
 [INFO][Rank 0] Parent of vertex 4 in T_1 is 18
 [INFO][Rank 0] Computing parent1 for vertex 4, tree T_2
-Rank 0, Thread 3: Processing vertex 18] [INFO][Rank 0] Parent of vertex 4 in T_2 is 1
+[INFO][Rank 0] Parent of vertex 4 in T_2 is 1
 [INFO][Rank 0] Computing parent1 for vertex 4, tree T_3
-Parent of vertex 7 in T_2 is 10[INFO][Rank 0] Parent of vertex 4 in T_3 is 5
-
-[INFO][Rank 0] Computing parent1 for vertex 18, tree T_1
-
-[INFO][Rank 0] Computing parent1 for vertex 7, tree T_3[INFO][Rank [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 5
+[INFO][Rank 0] Parent of vertex 4 in T_3 is 5
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 5
 [INFO][Rank 0] Computing parent1 for vertex 5, tree T_1
 [INFO][Rank 0] Parent of vertex 5 in T_1 is 19
 [INFO][Rank 0] Computing parent1 for vertex 5, tree T_2
-0[INFO][Rank 0] Parent of vertex 5 in T_2 is 3
+[INFO][Rank 0] Parent of vertex 5 in T_2 is 3
 [INFO][Rank 0] Computing parent1 for vertex 5, tree T_3
 [INFO][Rank 0] Parent of vertex 5 in T_3 is 4
-
+[INFO][Rank 0] Rank 0, Thread 3: Processing vertex 18
+[INFO][Rank 0] Computing parent1 for vertex 18, tree T_1
+[INFO][Rank [INFO][Rank 0] Rank 0, Thread 1: Processing vertex 6
+[INFO][Rank 0] Computing parent1 for vertex 6, tree T_1
+0] Parent of vertex 18 in T_1 is 4
+[INFO][Rank 0] Computing parent1 for vertex 18, tree T_2
+[INFO][Rank 0[INFO][Rank 0] Parent of vertex 6 in T_1 is 0] 
+[INFO][Rank 0] Computing parent1 for vertex 6, tree T_2
+[INFO][Rank [INFO][Rank 0] Parent of vertex 6 in T_2 is 8
+[INFO][Rank 0] Computing parent1 for vertex 6, tree T_3
+[INFO][Rank 0] Parent of vertex 6 in T_3 is 7
+[INFO][Rank 0] Rank 0, Thread 1: Processing vertex 7
+[INFO][Rank 0] Computing parent1 for vertex 7, tree T_1
+Parent of vertex 18 in T_2 is 20[INFO][Rank 0] Parent of vertex 7 in T_1 is 1
+[INFO][Rank 0] Computing parent1 for vertex 7, tree T_2
+[INFO][Rank 0] Parent of vertex 7 in T_2 is 10
+[INFO][Rank 0] Computing parent1 for vertex 7, tree T_3
 [INFO][Rank 0] Parent of vertex 7 in T_3 is 6
 [INFO][Rank 0] Rank 0, Thread 1: Processing vertex 8
 [INFO][Rank 0] Computing parent1 for vertex 8, tree T_1
@@ -114,46 +74,62 @@ Parent of vertex 7 in T_2 is 10[INFO][Rank 0] Parent of vertex 4 in T_3 is 5
 [INFO][Rank 0] Parent of vertex 8 in T_2 is 6
 [INFO][Rank 0] Computing parent1 for vertex 8, tree T_3
 [INFO][Rank 0] Parent of vertex 8 in T_3 is 9
-[INFO][Rank 0] Rank 0, Thread 1: Processing vertex 9
+[INFO][Rank 
+[INFO][Rank 0] Computing parent1 for vertex 18, tree T_3
+[INFO][Rank 0] Parent of vertex 18 in T_3 is 19
+0[INFO][Rank 0] Rank 0, Thread 3: Processing vertex 19
+0[INFO][Rank 0] Computing parent1 for vertex 19, tree T_1
+] Rank 0, Thread 1: Processing vertex 9[INFO][Rank 
 [INFO][Rank 0] Computing parent1 for vertex 9, tree T_1
-[INFO][Rank 0] Parent of vertex 9 in T_1 is 15
+0] Parent of vertex 19 in T_1 is 5
+[INFO][Rank [INFO][Rank 0] Computing parent1 for vertex 19, tree T_2
+[INFO][Rank 00] Parent of vertex 19 in T_2 is 22
+[INFO][Rank 0] Computing parent1 for vertex 19, tree T_3] 
+[INFO][Rank 0] Parent of vertex 19 in T_3 is 18
+Parent of vertex 9 in T_1 is 15] Rank 0, Thread 2: Processing vertex 12
+[INFO][Rank 0] Computing parent1 for vertex 12, tree T_1
+[INFO][Rank 0] Parent of vertex 12 in T_1 is 2
+[INFO][Rank 0] Computing parent1 for vertex 12, tree T_2
+[INFO][Rank 0] Parent of vertex 12 in T_2 is 14
+[INFO][Rank 0] Computing parent1 for vertex 12, tree T_3
+
 [INFO][Rank 0] Computing parent1 for vertex 9, tree T_2
-[INFO][Rank 0] Parent of vertex 9 in T_2 is 11
+[INFO][Rank [INFO][Rank 0] Parent of vertex 9 in T_2 is 11
 [INFO][Rank 0] Computing parent1 for vertex 9, tree T_3
 [INFO][Rank 0] Parent of vertex 9 in T_3 is 8
 [INFO][Rank 0] Rank 0, Thread 1: Processing vertex 10
-[INFO][Rank 0] Computing parent1 for vertex 10, tree T_1
+[INFO][Rank 00] ] Parent of vertex 12 in T_3 is 13Computing parent1 for vertex 10, tree T_1
+[INFO][Rank 0] Rank 0, Thread 3: Processing vertex 20
+[INFO][Rank 0] Computing parent1 for vertex 20, tree T_1
+[INFO][Rank 0
 [INFO][Rank 0] Parent of vertex 10 in T_1 is 20
 [INFO][Rank 0] Computing parent1 for vertex 10, tree T_2
 [INFO][Rank 0] Parent of vertex 10 in T_2 is 7
 [INFO][Rank 0] Computing parent1 for vertex 10, tree T_3
 [INFO][Rank 0] Parent of vertex 10 in T_3 is 11
-[INFO][Rank 0] Rank 0, Thread 1: Processing vertex 11
-[INFO][Rank 0] Computing parent1 for vertex 11, tree T_1
-[INFO][Rank 0] Parent of vertex 11 in T_1 is 21
-[INFO][Rank 0] Computing parent1 for vertex 11, tree T_2
-[INFO][Rank 0] Parent of vertex 11 in T_2 is 9
-[INFO][Rank 0] Computing parent1 for vertex 11, tree T_3
-[INFO][Rank 0] Parent of vertex 11 in T_3 is 10
-] Parent of vertex 18 in T_1 is 4
-[INFO][Rank 0] Computing parent1 for vertex 18, tree T_2
-[INFO][Rank 0] Parent of vertex 18 in T_2 is 20
-[INFO][Rank 0] Computing parent1 for vertex 18, tree T_3
-[INFO][Rank 0] Parent of vertex 18 in T_3 is 19
-[INFO][Rank 0] Rank 0, Thread 3: Processing vertex 19
-[INFO][Rank 0] Computing parent1 for vertex 19, tree T_1
-[INFO][Rank 0] Parent of vertex 19 in T_1 is 5
-[INFO][Rank 0] Computing parent1 for vertex 19, tree T_2
-[INFO][Rank 0] Parent of vertex 19 in T_2 is 22
-[INFO][Rank 0] Computing parent1 for vertex 19, tree T_3
-[INFO][Rank 0] Parent of vertex 19 in T_3 is 18
-[INFO][Rank 0] Rank 0, Thread 3: Processing vertex 20
-[INFO][Rank 0] Computing parent1 for vertex 20, tree T_1
-[INFO][Rank 0] Parent of vertex 20 in T_1 is 10
+[INFO][Rank ] Parent of vertex 20 in T_1 is 10
 [INFO][Rank 0] Computing parent1 for vertex 20, tree T_2
-[INFO][Rank 0] Parent of vertex 20 in T_2 is 18
-[INFO][Rank 0] Computing parent1 for vertex 20, tree T_3
-[INFO][Rank 0] Parent of vertex 20 in T_3 is 21
+[INFO][Rank [INFO][Rank 0] Rank 0, Thread 2: Processing vertex 13
+[INFO][Rank 0] Computing parent1 for vertex 13, tree T_1
+[INFO][Rank 0] Parent of vertex 13 in T_1 is 3
+[INFO][Rank 0] Computing parent1 for vertex 13, tree T_2
+0] Parent of vertex 20 in T_2 is 18[INFO][Rank 0] Parent of vertex 13 in T_2 is 16
+[INFO][Rank 0] Computing parent1 for vertex 13, tree T_3
+[INFO][Rank 0] Parent of vertex 13 in T_3 is 12
+[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 14
+0[INFO][Rank 0] Computing parent1 for vertex 14, tree T_1
+[INFO][Rank 0] Parent of vertex 14 in T_1 is 8
+[INFO][Rank 0] Computing parent1 for vertex 14, tree T_2
+[INFO][Rank 0] Parent of vertex 14 in T_2 is 12
+[INFO][Rank 0] Computing parent1 for vertex 14, tree T_3
+[INFO][Rank ] 0Rank 0, Thread 1: Processing vertex 11] 
+[INFO][Rank 0] Computing parent1 for vertex 11, tree T_1
+Parent of vertex 14 in T_3 is 15
+[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 15
+[INFO][Rank 0] Computing parent1 for vertex 15, tree T_1
+
+[INFO][Rank [INFO][Rank 0] Computing parent1 for vertex 20, tree T_3
+[INFO][Rank 00] Parent of vertex 20 in T_3 is 21
 [INFO][Rank 0] Rank 0, Thread 3: Processing vertex 21
 [INFO][Rank 0] Computing parent1 for vertex 21, tree T_1
 [INFO][Rank 0] Parent of vertex 21 in T_1 is 11
@@ -175,6 +151,30 @@ Parent of vertex 7 in T_2 is 10[INFO][Rank 0] Parent of vertex 4 in T_3 is 5
 [INFO][Rank 0] Parent of vertex 23 in T_2 is 21
 [INFO][Rank 0] Computing parent1 for vertex 23, tree T_3
 [INFO][Rank 0] Parent of vertex 23 in T_3 is 22
+] [INFO][Rank 0] Parent of vertex 15 in T_1 is 9
+Parent of vertex 11 in T_1 is 21[INFO][Rank 0] Computing parent1 for vertex 15, tree T_2
+[INFO][Rank 0] Parent of vertex 15 in T_2 is 17
+[INFO][Rank 0] Computing parent1 for vertex 15, tree T_3
+[INFO][Rank 0] Parent of vertex 15 in T_3 is 14
+[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 16
+[INFO][Rank 0] Computing parent1 for vertex 16, tree T_1
+[INFO][Rank 0] Parent of vertex 16 in T_1 is 22
+[INFO][Rank 0] Computing parent1 for vertex 16, tree T_2
+[INFO][Rank 0] Parent of vertex 16 in T_2 is 13
+[INFO][Rank 0] Computing parent1 for vertex 16, tree T_3
+
+[INFO][Rank 0[INFO][Rank ] 0Parent of vertex 16 in T_3 is 17] 
+[INFO][Rank 0] Rank 0, Thread 2: Processing vertex 17Computing parent1 for vertex 11, tree T_2
+[INFO][Rank 0] Computing parent1 for vertex 17, tree T_1
+[INFO][Rank 0] Parent of vertex 17 in T_1 is 23
+[INFO][Rank 0] Computing parent1 for vertex 17, tree T_2
+[INFO][Rank 0] Parent of vertex 17 in T_2 is 15
+[INFO][Rank 0] Computing parent1 for vertex 17, tree T_3
+[INFO][Rank 0] Parent of vertex 17 in T_3 is 16
+
+[INFO][Rank 0] Parent of vertex 11 in T_2 is 9
+[INFO][Rank 0] Computing parent1 for vertex 11, tree T_3
+[INFO][Rank 0] Parent of vertex 11 in T_3 is 10
 [INFO][Rank 0] Rank 0: Parallel IST construction completed.
 [INFO][Rank 0] Rank 0: Local IST construction completed, parents size = 24
 [INFO][Rank 0] Rank 0: Entering gather_parents, local_parents size = 24
@@ -186,22 +186,22 @@ Parent of vertex 7 in T_2 is 10[INFO][Rank 0] Parent of vertex 4 in T_3 is 5
 [INFO][Rank 0] Rank 0: Gathered all parents, size = 24
 [INFO][Rank 0] Output written to data/output/ists_B4.txt
 [INFO][Rank 0] IST construction completed. Results written to data/output/ists_B4.txt
-[INFO][Rank 0] Timing: Graph=0.002974s, Partition=0.000021s, LocalVertices=0.000010s, IST=0.004398s, Gather=0.000387s, Output=0.016801s, Total=0.024591s
+[INFO][Rank 0] Timing: Graph=0.004480s, Partition=0.000029s, LocalVertices=0.000017s, IST=0.011445s, Gather=0.000467s, Output=0.017349s, Total=0.033787s
 	Command being timed: "mpirun -np 1 --oversubscribe ./bubble_sort_ist"
-	User time (seconds): 0.07
-	System time (seconds): 0.05
-	Percent of CPU this job got: 31%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
+	User time (seconds): 0.11
+	System time (seconds): 0.07
+	Percent of CPU this job got: 41%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.47
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 85444
+	Maximum resident set size (kbytes): 83592
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 22
-	Minor (reclaiming a frame) page faults: 7681
-	Voluntary context switches: 1468
-	Involuntary context switches: 29
+	Minor (reclaiming a frame) page faults: 7705
+	Voluntary context switches: 1479
+	Involuntary context switches: 10
 	Swaps: 0
 	File system inputs: 512
 	File system outputs: 104

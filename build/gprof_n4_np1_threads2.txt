@@ -22,7 +22,7 @@ Each sample counts as 0.01 seconds.
   0.00      0.00     0.00      900     0.00     0.00  bool std::equal<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >)
   0.00      0.00     0.00      900     0.00     0.00  int std::__memcmp<int, int>(int const*, int const*, unsigned long)
   0.00      0.00     0.00      900     0.00     0.00  bool std::operator==<int, std::allocator<int> >(std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&)
-  0.00      0.00     0.00      760     0.00     0.00  std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+  0.00      0.00     0.00      763     0.00     0.00  std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
   0.00      0.00     0.00      744     0.00     0.00  bool __gnu_cxx::operator!=<int const*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > const&)
   0.00      0.00     0.00      718     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const
   0.00      0.00     0.00      708     0.00     0.00  __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >)
@@ -31,15 +31,15 @@ Each sample counts as 0.01 seconds.
   0.00      0.00     0.00      576     0.00     0.00  __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::operator*() const
   0.00      0.00     0.00      518     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&)
   0.00      0.00     0.00      492     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const
-  0.00      0.00     0.00      477     0.00     0.00  std::__new_allocator<char>::~__new_allocator()
+  0.00      0.00     0.00      478     0.00     0.00  std::__new_allocator<char>::~__new_allocator()
   0.00      0.00     0.00      461     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned long)
-  0.00      0.00     0.00      459     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&)
+  0.00      0.00     0.00      458     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&)
+  0.00      0.00     0.00      452     0.00     0.00  std::__cxx11::to_string(int)
   0.00      0.00     0.00      452     0.00     0.00  unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int)
-  0.00      0.00     0.00      451     0.00     0.00  std::__cxx11::to_string(int)
   0.00      0.00     0.00      451     0.00     0.00  void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int)
   0.00      0.00     0.00      448     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned long)
   0.00      0.00     0.00      409     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long)
-  0.00      0.00     0.00      405     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned long) const
+  0.00      0.00     0.00      406     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned long) const
   0.00      0.00     0.00      396     0.00     0.00  std::remove_reference<int&>::type&& std::move<int&>(int&)
   0.00      0.00     0.00      366     0.00     0.00  int* std::__niter_wrap<int*>(int* const&, int*)
   0.00      0.00     0.00      364     0.00     0.00  void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
@@ -64,20 +64,20 @@ Each sample counts as 0.01 seconds.
   0.00      0.00     0.00      313     0.00     0.00  std::__new_allocator<int>::allocate(unsigned long, void const*)
   0.00      0.00     0.00      312     0.00     0.00  std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
   0.00      0.00     0.00      296     0.00     0.00  std::vector<int, std::allocator<int> >* std::__addressof<std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >&)
-  0.00      0.00     0.00      293     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+  0.00      0.00     0.00      295     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
   0.00      0.00     0.00      290     0.00     0.00  __gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> > const*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >::base() const
   0.00      0.00     0.00      288     0.00     0.00  int&& std::forward<int>(std::remove_reference<int>::type&)
   0.00      0.00     0.00      285     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::operator*() const
-  0.00      0.00     0.00      284     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      0.00     0.00      283     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
   0.00      0.00     0.00      223     0.00     0.00  std::vector<int, std::allocator<int> >::end()
   0.00      0.00     0.00      216     0.00     0.00  BubbleSortGraph::vertices() const
   0.00      0.00     0.00      216     0.00     0.00  std::vector<Permutation, std::allocator<Permutation> >::operator[](unsigned long) const
   0.00      0.00     0.00      216     0.00     0.00  std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::operator[](unsigned long) const
   0.00      0.00     0.00      216     0.00     0.00  std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::operator[](unsigned long)
   0.00      0.00     0.00      204     0.00     0.00  unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&)
-  0.00      0.00     0.00      187     0.00     0.00  log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00      189     0.00     0.00  log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
   0.00      0.00     0.00      187     0.00     0.00  std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&)
-  0.00      0.00     0.00      185     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      0.00     0.00      184     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
   0.00      0.00     0.00      180     0.00     0.00  std::vector<int, std::allocator<int> >::max_size() const
   0.00      0.00     0.00      168     0.00     0.00  std::vector<int, std::allocator<int> >::_S_relocate(int*, int*, int*, std::allocator<int>&)
   0.00      0.00     0.00      168     0.00     0.00  int* std::__relocate_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&)
@@ -97,7 +97,7 @@ Each sample counts as 0.01 seconds.
   0.00      0.00     0.00      108     0.00     0.00  int const& std::forward<int const&>(std::remove_reference<int const&>::type&)
   0.00      0.00     0.00      103     0.00     0.00  std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::size() const
   0.00      0.00     0.00      102     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&)
-  0.00      0.00     0.00       99     0.00     0.00  BubbleSortGraph::num_vertices() const
+  0.00      0.00     0.00      100     0.00     0.00  BubbleSortGraph::num_vertices() const
   0.00      0.00     0.00       97     0.00     0.00  unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&)
   0.00      0.00     0.00       96     0.00     0.00  Permutation::Permutation(std::vector<int, std::allocator<int> > const&)
   0.00      0.00     0.00       96     0.00     0.00  std::remove_reference<int*&>::type&& std::move<int*&>(int*&)
@@ -504,10 +504,10 @@ index % time    self  children    called     name
                 0.00    0.00     900/1452        std::vector<int, std::allocator<int> >::end() const [13]
                 0.00    0.00     900/900         bool std::equal<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [22]
 -----------------------------------------------
-                0.00    0.00     184/760         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
-                0.00    0.00     282/760         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
-                0.00    0.00     294/760         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
-[25]     0.0    0.00    0.00     760         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
+                0.00    0.00     185/763         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+                0.00    0.00     284/763         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00     294/763         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+[25]     0.0    0.00    0.00     763         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
 -----------------------------------------------
                 0.00    0.00      24/744         void std::vector<int, std::allocator<int> >::_M_range_insert<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, std::forward_iterator_tag) [182]
                 0.00    0.00     720/744         Permutation::to_string[abi:cxx11]() const [88]
@@ -554,16 +554,16 @@ index % time    self  children    called     name
                 0.00    0.00     312/492         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [65]
 [33]     0.0    0.00    0.00     492         std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [33]
 -----------------------------------------------
-                0.00    0.00       1/477         main [6]
-                0.00    0.00       1/477         std::filesystem::__cxx11::path::path<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::filesystem::__cxx11::path>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::filesystem::__cxx11::path::format) [309]
-                0.00    0.00       1/477         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
-                0.00    0.00       1/477         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [370]
-                0.00    0.00       3/477         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [257]
-                0.00    0.00       4/477         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [252]
-                0.00    0.00       7/477         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [213]
-                0.00    0.00       8/477         std::__cxx11::to_string(unsigned long) [210]
-                0.00    0.00     451/477         std::__cxx11::to_string(int) [38]
-[34]     0.0    0.00    0.00     477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       1/478         main [6]
+                0.00    0.00       1/478         std::filesystem::__cxx11::path::path<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::filesystem::__cxx11::path>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::filesystem::__cxx11::path::format) [309]
+                0.00    0.00       1/478         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
+                0.00    0.00       1/478         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [370]
+                0.00    0.00       3/478         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [257]
+                0.00    0.00       4/478         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [252]
+                0.00    0.00       7/478         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [213]
+                0.00    0.00       8/478         std::__cxx11::to_string(unsigned long) [210]
+                0.00    0.00     452/478         std::__cxx11::to_string(int) [37]
+[34]     0.0    0.00    0.00     478         std::__new_allocator<char>::~__new_allocator() [34]
 -----------------------------------------------
                 0.00    0.00       4/461         BubbleSortGraph::BubbleSortGraph(int) [293]
                 0.00    0.00      72/461         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
@@ -571,27 +571,27 @@ index % time    self  children    called     name
                 0.00    0.00     241/461         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
 [35]     0.0    0.00    0.00     461         std::vector<int, std::allocator<int> >::operator[](unsigned long) [35]
 -----------------------------------------------
-                0.00    0.00       8/459         std::__cxx11::to_string(unsigned long) [210]
-                0.00    0.00     451/459         std::__cxx11::to_string(int) [38]
-[36]     0.0    0.00    0.00     459         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) [36]
+                0.00    0.00       8/458         std::__cxx11::to_string(unsigned long) [210]
+                0.00    0.00     450/458         std::__cxx11::to_string(int) [37]
+[36]     0.0    0.00    0.00     458         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) [36]
 -----------------------------------------------
-                0.00    0.00     452/452         std::__cxx11::to_string(int) [38]
-[37]     0.0    0.00    0.00     452         unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) [37]
------------------------------------------------
-                0.00    0.00       1/451         BubbleSortGraph::BubbleSortGraph(int) [293]
-                0.00    0.00       1/451         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
-                0.00    0.00       4/451         partition_graph(BubbleSortGraph const&, int) [290]
-                0.00    0.00       5/451         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
-                0.00    0.00       8/451         main [6]
-                0.00    0.00      74/451         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00     358/451         parent1(BubbleSortGraph const&, int, int, int) [107]
-[38]     0.0    0.00    0.00     451         std::__cxx11::to_string(int) [38]
-                0.00    0.00     452/452         unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) [37]
-                0.00    0.00     451/459         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) [36]
-                0.00    0.00     451/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       1/452         BubbleSortGraph::BubbleSortGraph(int) [293]
+                0.00    0.00       1/452         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
+                0.00    0.00       4/452         partition_graph(BubbleSortGraph const&, int) [290]
+                0.00    0.00       5/452         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
+                0.00    0.00       8/452         main [6]
+                0.00    0.00      73/452         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
+                0.00    0.00     360/452         parent1(BubbleSortGraph const&, int, int, int) [107]
+[37]     0.0    0.00    0.00     452         std::__cxx11::to_string(int) [37]
+                0.00    0.00     452/452         unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) [38]
+                0.00    0.00     452/478         std::__new_allocator<char>::~__new_allocator() [34]
                 0.00    0.00     451/451         void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) [39]
+                0.00    0.00     450/458         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) [36]
 -----------------------------------------------
-                0.00    0.00     451/451         std::__cxx11::to_string(int) [38]
+                0.00    0.00     452/452         std::__cxx11::to_string(int) [37]
+[38]     0.0    0.00    0.00     452         unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) [38]
+-----------------------------------------------
+                0.00    0.00     451/451         std::__cxx11::to_string(int) [37]
 [39]     0.0    0.00    0.00     451         void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int) [39]
 -----------------------------------------------
                 0.00    0.00       6/448         void std::vector<int, std::allocator<int> >::_M_range_insert<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, std::forward_iterator_tag) [182]
@@ -608,11 +608,11 @@ index % time    self  children    called     name
 [41]     0.0    0.00    0.00     409         std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) [41]
                 0.00    0.00     313/313         std::__new_allocator<int>::allocate(unsigned long, void const*) [64]
 -----------------------------------------------
-                0.00    0.00      48/405         get_local_vertices(std::vector<int, std::allocator<int> > const&, int, int, int) [258]
-                0.00    0.00      72/405         parent1(BubbleSortGraph const&, int, int, int) [107]
-                0.00    0.00     141/405         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00     144/405         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
-[42]     0.0    0.00    0.00     405         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
+                0.00    0.00      48/406         get_local_vertices(std::vector<int, std::allocator<int> > const&, int, int, int) [258]
+                0.00    0.00      72/406         parent1(BubbleSortGraph const&, int, int, int) [107]
+                0.00    0.00     142/406         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
+                0.00    0.00     144/406         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
+[42]     0.0    0.00    0.00     406         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
 -----------------------------------------------
                 0.00    0.00      72/396         std::vector<int, std::allocator<int> >::push_back(int&&) [118]
                 0.00    0.00     324/396         std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<int> >, std::is_move_constructible<int>, std::is_move_assignable<int> >::value, void>::type std::swap<int>(int&, int&) [96]
@@ -745,15 +745,15 @@ index % time    self  children    called     name
                 0.00    0.00     148/296         void std::_Destroy_aux<false>::__destroy<std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> >*) [156]
 [66]     0.0    0.00    0.00     296         std::vector<int, std::allocator<int> >* std::__addressof<std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >&) [66]
 -----------------------------------------------
-                0.00    0.00       1/293         BubbleSortGraph::BubbleSortGraph(int) [293]
-                0.00    0.00       1/293         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
-                0.00    0.00       3/293         partition_graph(BubbleSortGraph const&, int) [290]
-                0.00    0.00       5/293         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
-                0.00    0.00      18/293         main [6]
-                0.00    0.00      50/293         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00     215/293         parent1(BubbleSortGraph const&, int, int, int) [107]
-[67]     0.0    0.00    0.00     293         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
-                0.00    0.00     294/760         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
+                0.00    0.00       1/295         BubbleSortGraph::BubbleSortGraph(int) [293]
+                0.00    0.00       1/295         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
+                0.00    0.00       3/295         partition_graph(BubbleSortGraph const&, int) [290]
+                0.00    0.00       5/295         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
+                0.00    0.00      18/295         main [6]
+                0.00    0.00      51/295         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
+                0.00    0.00     216/295         parent1(BubbleSortGraph const&, int, int, int) [107]
+[67]     0.0    0.00    0.00     295         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+                0.00    0.00     294/763         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
 -----------------------------------------------
                 0.00    0.00     290/290         bool __gnu_cxx::operator!=<std::vector<int, std::allocator<int> > const*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> > const*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > > const&, __gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> > const*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > > const&) [87]
 [68]     0.0    0.00    0.00     290         __gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> > const*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >::base() const [68]
@@ -768,15 +768,15 @@ index % time    self  children    called     name
                 0.00    0.00     140/285         bool __gnu_cxx::__ops::_Iter_less_iter::operator()<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >) const [119]
 [70]     0.0    0.00    0.00     285         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::operator*() const [70]
 -----------------------------------------------
-                0.00    0.00       1/284         BubbleSortGraph::BubbleSortGraph(int) [293]
-                0.00    0.00       1/284         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
-                0.00    0.00       2/284         partition_graph(BubbleSortGraph const&, int) [290]
-                0.00    0.00       3/284         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
-                0.00    0.00      12/284         main [6]
-                0.00    0.00      49/284         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00     216/284         parent1(BubbleSortGraph const&, int, int, int) [107]
-[71]     0.0    0.00    0.00     284         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
-                0.00    0.00     282/760         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
+                0.00    0.00       1/283         BubbleSortGraph::BubbleSortGraph(int) [293]
+                0.00    0.00       1/283         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
+                0.00    0.00       2/283         partition_graph(BubbleSortGraph const&, int) [290]
+                0.00    0.00       3/283         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
+                0.00    0.00      12/283         main [6]
+                0.00    0.00      48/283         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
+                0.00    0.00     216/283         parent1(BubbleSortGraph const&, int, int, int) [107]
+[71]     0.0    0.00    0.00     283         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00     284/763         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
 -----------------------------------------------
                 0.00    0.00       1/223         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int)::{lambda()#1}::operator()() const [371]
                 0.00    0.00      12/223         std::vector<int, std::allocator<int> >::push_back(int const&) [132]
@@ -811,28 +811,28 @@ index % time    self  children    called     name
                 0.00    0.00     187/204         std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&) [79]
 [77]     0.0    0.00    0.00     204         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [77]
 -----------------------------------------------
-                0.00    0.00       1/187         BubbleSortGraph::BubbleSortGraph(int) [293]
-                0.00    0.00       1/187         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
-                0.00    0.00       2/187         partition_graph(BubbleSortGraph const&, int) [290]
-                0.00    0.00       6/187         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
-                0.00    0.00       9/187         main [6]
-                0.00    0.00      25/187         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00     143/187         parent1(BubbleSortGraph const&, int, int, int) [107]
-[78]     0.0    0.00    0.00     187         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00       1/189         BubbleSortGraph::BubbleSortGraph(int) [293]
+                0.00    0.00       1/189         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
+                0.00    0.00       2/189         partition_graph(BubbleSortGraph const&, int) [290]
+                0.00    0.00       6/189         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
+                0.00    0.00       9/189         main [6]
+                0.00    0.00      26/189         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
+                0.00    0.00     144/189         parent1(BubbleSortGraph const&, int, int, int) [107]
+[78]     0.0    0.00    0.00     189         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
 -----------------------------------------------
                 0.00    0.00       7/187         std::vector<int, std::allocator<int> >::_S_check_init_len(unsigned long, std::allocator<int> const&) [217]
                 0.00    0.00     180/187         std::vector<int, std::allocator<int> >::max_size() const [81]
 [79]     0.0    0.00    0.00     187         std::vector<int, std::allocator<int> >::_S_max_size(std::allocator<int> const&) [79]
                 0.00    0.00     187/204         unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) [77]
 -----------------------------------------------
-                0.00    0.00       1/185         BubbleSortGraph::BubbleSortGraph(int) [293]
-                0.00    0.00       2/185         partition_graph(BubbleSortGraph const&, int) [290]
-                0.00    0.00       5/185         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
-                0.00    0.00       7/185         main [6]
-                0.00    0.00      26/185         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00     144/185         parent1(BubbleSortGraph const&, int, int, int) [107]
-[80]     0.0    0.00    0.00     185         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
-                0.00    0.00     184/760         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
+                0.00    0.00       1/184         BubbleSortGraph::BubbleSortGraph(int) [293]
+                0.00    0.00       2/184         partition_graph(BubbleSortGraph const&, int) [290]
+                0.00    0.00       5/184         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
+                0.00    0.00       7/184         main [6]
+                0.00    0.00      26/184         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
+                0.00    0.00     143/184         parent1(BubbleSortGraph const&, int, int, int) [107]
+[80]     0.0    0.00    0.00     184         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+                0.00    0.00     185/763         std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [25]
 -----------------------------------------------
                 0.00    0.00     180/180         std::vector<int, std::allocator<int> >::_M_check_len(unsigned long, char const*) const [104]
 [81]     0.0    0.00    0.00     180         std::vector<int, std::allocator<int> >::max_size() const [81]
@@ -931,11 +931,11 @@ index % time    self  children    called     name
 [99]     0.0    0.00    0.00     102         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [99]
                 0.00    0.00     204/718         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [27]
 -----------------------------------------------
-                0.00    0.00       2/99          partition_graph(BubbleSortGraph const&, int) [290]
-                0.00    0.00       3/99          main [6]
-                0.00    0.00      23/99          construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00      71/99          parent1(BubbleSortGraph const&, int, int, int) [107]
-[100]    0.0    0.00    0.00      99         BubbleSortGraph::num_vertices() const [100]
+                0.00    0.00       2/100         partition_graph(BubbleSortGraph const&, int) [290]
+                0.00    0.00       3/100         main [6]
+                0.00    0.00      23/100         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
+                0.00    0.00      72/100         parent1(BubbleSortGraph const&, int, int, int) [107]
+[100]    0.0    0.00    0.00     100         BubbleSortGraph::num_vertices() const [100]
                 0.00    0.00     100/1051        std::vector<Permutation, std::allocator<Permutation> >::size() const [14]
 -----------------------------------------------
                 0.00    0.00       1/97          std::vector<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, std::allocator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > > >::_M_check_len(unsigned long, char const*) const [299]
@@ -972,17 +972,17 @@ index % time    self  children    called     name
 -----------------------------------------------
                 0.00    0.00      72/72          construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
 [107]    0.0    0.00    0.00      72         parent1(BubbleSortGraph const&, int, int, int) [107]
-                0.00    0.00     358/451         std::__cxx11::to_string(int) [38]
-                0.00    0.00     216/284         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
-                0.00    0.00     215/293         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
-                0.00    0.00     144/185         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
-                0.00    0.00     143/187         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00     360/452         std::__cxx11::to_string(int) [37]
+                0.00    0.00     216/295         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+                0.00    0.00     216/283         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00     144/189         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00     143/184         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+                0.00    0.00      72/100         BubbleSortGraph::num_vertices() const [100]
                 0.00    0.00      72/216         BubbleSortGraph::vertices() const [73]
                 0.00    0.00      72/216         std::vector<Permutation, std::allocator<Permutation> >::operator[](unsigned long) const [74]
                 0.00    0.00      72/72          BubbleSortGraph::get_adjacent(int, int) const [110]
                 0.00    0.00      72/72          std::vector<int, std::allocator<int> >::empty() const [113]
-                0.00    0.00      72/405         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
-                0.00    0.00      71/99          BubbleSortGraph::num_vertices() const [100]
+                0.00    0.00      72/406         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
 -----------------------------------------------
                 0.00    0.00      72/72          std::vector<int, std::allocator<int> >::empty() const [113]
 [108]    0.0    0.00    0.00      72         bool __gnu_cxx::operator==<int const*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > const&) [108]
@@ -1511,8 +1511,8 @@ index % time    self  children    called     name
                 0.00    0.00       4/8           main [6]
 [210]    0.0    0.00    0.00       8         std::__cxx11::to_string(unsigned long) [210]
                 0.00    0.00       8/8           unsigned int std::__detail::__to_chars_len<unsigned long>(unsigned long, int) [211]
-                0.00    0.00       8/459         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) [36]
-                0.00    0.00       8/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       8/458         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) [36]
+                0.00    0.00       8/478         std::__new_allocator<char>::~__new_allocator() [34]
                 0.00    0.00       8/8           void std::__detail::__to_chars_10_impl<unsigned long>(char*, unsigned int, unsigned long) [212]
 -----------------------------------------------
                 0.00    0.00       8/8           std::__cxx11::to_string(unsigned long) [210]
@@ -1524,7 +1524,7 @@ index % time    self  children    called     name
                 0.00    0.00       7/7           std::__cxx11::to_string(double) [221]
 [213]    0.0    0.00    0.00       7         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) [213]
                 0.00    0.00       7/7           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<char*, void>(char*, char*, std::allocator<char> const&) [220]
-                0.00    0.00       7/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       7/478         std::__new_allocator<char>::~__new_allocator() [34]
 -----------------------------------------------
                 0.00    0.00       1/7           std::_Vector_base<Permutation, std::allocator<Permutation> >::~_Vector_base() [321]
                 0.00    0.00       6/7           void std::vector<Permutation, std::allocator<Permutation> >::_M_realloc_insert<std::vector<int, std::allocator<int> >&>(__gnu_cxx::__normal_iterator<Permutation*, std::vector<Permutation, std::allocator<Permutation> > >, std::vector<int, std::allocator<int> >&) [234]
@@ -1701,7 +1701,7 @@ index % time    self  children    called     name
                 0.00    0.00       1/4           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [370]
                 0.00    0.00       3/4           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [257]
 [252]    0.0    0.00    0.00       4         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [252]
-                0.00    0.00       4/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       4/478         std::__new_allocator<char>::~__new_allocator() [34]
 -----------------------------------------------
                 0.00    0.00       4/4           std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >* std::__uninitialized_move_if_noexcept_a<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*, std::allocator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > > >(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*, std::allocator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >&) [282]
 [253]    0.0    0.00    0.00       4         std::move_iterator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*> std::__make_move_if_noexcept_iterator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, std::move_iterator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*> >(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*) [253]
@@ -1725,12 +1725,12 @@ index % time    self  children    called     name
 [257]    0.0    0.00    0.00       3         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [257]
                 0.00    0.00       3/6           std::char_traits<char>::length(char const*) [230]
                 0.00    0.00       3/4           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [252]
-                0.00    0.00       3/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       3/478         std::__new_allocator<char>::~__new_allocator() [34]
 -----------------------------------------------
                 0.00    0.00       1/2           main [6]
                 0.00    0.00       1/2           gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
 [258]    0.0    0.00    0.00       2         get_local_vertices(std::vector<int, std::allocator<int> > const&, int, int, int) [258]
-                0.00    0.00      48/405         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
+                0.00    0.00      48/406         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
                 0.00    0.00      48/48          std::vector<int, std::allocator<int> >::push_back(int const&) [132]
                 0.00    0.00       2/7           std::vector<int, std::allocator<int> >::vector() [218]
 -----------------------------------------------
@@ -1867,17 +1867,17 @@ index % time    self  children    called     name
                 0.00    0.00       1/1           main [6]
 [288]    0.0    0.00    0.00       1         output_ists(BubbleSortGraph const&, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [288]
                 0.00    0.00     144/216         std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::operator[](unsigned long) const [75]
-                0.00    0.00     144/405         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
+                0.00    0.00     144/406         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
                 0.00    0.00     144/216         BubbleSortGraph::vertices() const [73]
                 0.00    0.00     144/216         std::vector<Permutation, std::allocator<Permutation> >::operator[](unsigned long) const [74]
                 0.00    0.00     144/144         Permutation::to_string[abi:cxx11]() const [88]
                 0.00    0.00      75/103         std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::size() const [98]
-                0.00    0.00       1/451         std::__cxx11::to_string(int) [38]
+                0.00    0.00       1/452         std::__cxx11::to_string(int) [37]
                 0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [370]
-                0.00    0.00       1/284         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
-                0.00    0.00       1/293         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+                0.00    0.00       1/283         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00       1/295         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
                 0.00    0.00       1/3           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [257]
-                0.00    0.00       1/187         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00       1/189         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
 -----------------------------------------------
                 0.00    0.00       1/1           main [6]
 [289]    0.0    0.00    0.00       1         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
@@ -1892,14 +1892,14 @@ index % time    self  children    called     name
                 0.00    0.00      24/24          __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator<int*, void>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [171]
                 0.00    0.00      24/24          __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > std::vector<int, std::allocator<int> >::insert<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, void>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [183]
                 0.00    0.00      24/120         __gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> > const*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >::operator++() [93]
-                0.00    0.00       6/187         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00       6/189         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
                 0.00    0.00       6/358         std::vector<int, std::allocator<int> >::~vector() [49]
-                0.00    0.00       5/451         std::__cxx11::to_string(int) [38]
-                0.00    0.00       5/185         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
-                0.00    0.00       5/293         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+                0.00    0.00       5/452         std::__cxx11::to_string(int) [37]
+                0.00    0.00       5/184         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+                0.00    0.00       5/295         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
                 0.00    0.00       5/5           std::vector<int, std::allocator<int> >::data() [241]
                 0.00    0.00       4/684         std::__new_allocator<int>::~__new_allocator() [29]
-                0.00    0.00       3/284         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00       3/283         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
                 0.00    0.00       3/5           std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) [242]
                 0.00    0.00       2/103         std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::size() const [98]
                 0.00    0.00       2/8           std::__cxx11::to_string(unsigned long) [210]
@@ -1912,16 +1912,16 @@ index % time    self  children    called     name
                 0.00    0.00       1/25          std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::end() const [169]
                 0.00    0.00       1/2           get_local_vertices(std::vector<int, std::allocator<int> > const&, int, int, int) [258]
                 0.00    0.00       1/2           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [273]
-                0.00    0.00       1/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       1/478         std::__new_allocator<char>::~__new_allocator() [34]
 -----------------------------------------------
                 0.00    0.00       1/1           main [6]
 [290]    0.0    0.00    0.00       1         partition_graph(BubbleSortGraph const&, int) [290]
-                0.00    0.00       4/451         std::__cxx11::to_string(int) [38]
-                0.00    0.00       3/293         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
-                0.00    0.00       2/99          BubbleSortGraph::num_vertices() const [100]
-                0.00    0.00       2/185         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
-                0.00    0.00       2/284         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
-                0.00    0.00       2/187         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00       4/452         std::__cxx11::to_string(int) [37]
+                0.00    0.00       3/295         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+                0.00    0.00       2/100         BubbleSortGraph::num_vertices() const [100]
+                0.00    0.00       2/184         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+                0.00    0.00       2/283         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00       2/189         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
                 0.00    0.00       1/2           std::vector<int, std::allocator<int> >::vector(unsigned long, int const&, std::allocator<int> const&) [271]
                 0.00    0.00       1/684         std::__new_allocator<int>::~__new_allocator() [29]
                 0.00    0.00       1/32          std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> >&&) [143]
@@ -1929,16 +1929,16 @@ index % time    self  children    called     name
 -----------------------------------------------
                 0.00    0.00       1/1           main [6]
 [291]    0.0    0.00    0.00       1         construct_ists_parallel(BubbleSortGraph const&, std::vector<int, std::allocator<int> > const&, int) [291]
-                0.00    0.00     141/405         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
-                0.00    0.00      74/451         std::__cxx11::to_string(int) [38]
+                0.00    0.00     142/406         std::vector<int, std::allocator<int> >::operator[](unsigned long) const [42]
+                0.00    0.00      73/452         std::__cxx11::to_string(int) [37]
                 0.00    0.00      72/72          parent1(BubbleSortGraph const&, int, int, int) [107]
                 0.00    0.00      72/216         std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::operator[](unsigned long) [76]
                 0.00    0.00      72/461         std::vector<int, std::allocator<int> >::operator[](unsigned long) [35]
-                0.00    0.00      50/293         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
-                0.00    0.00      49/284         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
-                0.00    0.00      26/185         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
-                0.00    0.00      25/187         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
-                0.00    0.00      23/99          BubbleSortGraph::num_vertices() const [100]
+                0.00    0.00      51/295         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+                0.00    0.00      48/283         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00      26/184         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+                0.00    0.00      26/189         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00      23/100         BubbleSortGraph::num_vertices() const [100]
                 0.00    0.00       4/2576        std::vector<int, std::allocator<int> >::size() const [11]
                 0.00    0.00       1/8           std::__cxx11::to_string(unsigned long) [210]
                 0.00    0.00       1/5           std::vector<int, std::allocator<int> >::vector(unsigned long, std::allocator<int> const&) [242]
@@ -1975,11 +1975,11 @@ index % time    self  children    called     name
                 0.00    0.00       1/27          std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::~vector() [167]
                 0.00    0.00       1/57          std::__new_allocator<std::vector<int, std::allocator<int> > >::~__new_allocator() [128]
                 0.00    0.00       1/8           std::__cxx11::to_string(unsigned long) [210]
-                0.00    0.00       1/451         std::__cxx11::to_string(int) [38]
-                0.00    0.00       1/185         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
-                0.00    0.00       1/293         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
-                0.00    0.00       1/187         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
-                0.00    0.00       1/284         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
+                0.00    0.00       1/452         std::__cxx11::to_string(int) [37]
+                0.00    0.00       1/184         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [80]
+                0.00    0.00       1/295         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*) [67]
+                0.00    0.00       1/189         log_info(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [78]
+                0.00    0.00       1/283         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [71]
                 0.00    0.00       1/358         std::vector<int, std::allocator<int> >::~vector() [49]
 -----------------------------------------------
                 0.00    0.00       1/1           main [6]
@@ -2049,7 +2049,7 @@ index % time    self  children    called     name
                 0.00    0.00       1/1           std::basic_string_view<char, std::char_traits<char> > std::filesystem::__cxx11::__detail::__effective_range<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [311]
                 0.00    0.00       1/1           auto std::filesystem::__cxx11::path::_S_convert<std::basic_string_view<char, std::char_traits<char> > >(std::basic_string_view<char, std::char_traits<char> >) [307]
                 0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::basic_string_view<char, std::char_traits<char> >, void>(std::basic_string_view<char, std::char_traits<char> > const&, std::allocator<char> const&) [347]
-                0.00    0.00       1/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       1/478         std::__new_allocator<char>::~__new_allocator() [34]
 -----------------------------------------------
                 0.00    0.00       1/1           main [6]
 [310]    0.0    0.00    0.00       1         std::filesystem::__cxx11::path::~path() [310]
@@ -2303,7 +2303,7 @@ index % time    self  children    called     name
 [370]    0.0    0.00    0.00       1         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [370]
                 0.00    0.00       1/6           std::char_traits<char>::length(char const*) [230]
                 0.00    0.00       1/4           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__str_concat<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::value_type const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size_type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::allocator_type const&) [252]
-                0.00    0.00       1/477         std::__new_allocator<char>::~__new_allocator() [34]
+                0.00    0.00       1/478         std::__new_allocator<char>::~__new_allocator() [34]
 -----------------------------------------------
                 0.00    0.00       1/1           gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int) [289]
 [371]    0.0    0.00    0.00       1         gather_parents(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&, std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&, int, int, int)::{lambda()#1}::operator()() const [371]
@@ -2511,10 +2511,10 @@ Index by function name
  [156] void std::_Destroy_aux<false>::__destroy<std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> >*) [347] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::basic_string_view<char, std::char_traits<char> >, void>(std::basic_string_view<char, std::char_traits<char> > const&, std::allocator<char> const&) [194] void std::__reverse<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, std::random_access_iterator_tag)
   [45] void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [36] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&) [139] void std::iter_swap<__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >)
  [231] std::_Vector_base<Permutation, std::allocator<Permutation> >::_M_allocate(unsigned long) [221] std::__cxx11::to_string(double) [284] bool std::operator==<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*>(std::move_iterator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*> const&, std::move_iterator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*> const&)
- [317] std::_Vector_base<Permutation, std::allocator<Permutation> >::_Vector_impl::_Vector_impl() [38] std::__cxx11::to_string(int) [24] bool std::operator==<int, std::allocator<int> >(std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&)
+ [317] std::_Vector_base<Permutation, std::allocator<Permutation> >::_Vector_impl::_Vector_impl() [37] std::__cxx11::to_string(int) [24] bool std::operator==<int, std::allocator<int> >(std::vector<int, std::allocator<int> > const&, std::vector<int, std::allocator<int> > const&)
  [318] std::_Vector_base<Permutation, std::allocator<Permutation> >::_Vector_impl::~_Vector_impl() [210] std::__cxx11::to_string(unsigned long) [285] bool std::operator!=<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*>(std::move_iterator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*> const&, std::move_iterator<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >*> const&)
  [214] std::_Vector_base<Permutation, std::allocator<Permutation> >::_M_deallocate(Permutation*, unsigned long) [19] bool std::__equal<true>::equal<int>(int const*, int const*, int const*) [67] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
- [319] std::_Vector_base<Permutation, std::allocator<Permutation> >::_Vector_impl_data::_Vector_impl_data() [37] unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) [71] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ [319] std::_Vector_base<Permutation, std::allocator<Permutation> >::_Vector_impl_data::_Vector_impl_data() [38] unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int) [71] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
  [201] std::_Vector_base<Permutation, std::allocator<Permutation> >::_M_get_Tp_allocator() [211] unsigned int std::__detail::__to_chars_len<unsigned long>(unsigned long, int) [80] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
  [320] std::_Vector_base<Permutation, std::allocator<Permutation> >::_Vector_base() [348] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_Hash_code_base() [257] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
  [321] std::_Vector_base<Permutation, std::allocator<Permutation> >::~_Vector_base() [349] std::__detail::_Hash_node_base::_Hash_node_base() [370] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)

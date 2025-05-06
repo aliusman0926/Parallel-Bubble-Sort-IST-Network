@@ -8,10 +8,13 @@
 [INFO][Rank 0] Converted graph to METIS format: xadj size=121, adjncy size=480
 [INFO][Rank 0] Rank 0: xadj = [0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212 216 220 224 228 232 236 240 244 248 252 256 260 264 268 272 276 280 284 288 292 296 300 304 308 312 316 320 324 328 332 336 340 344 348 352 356 360 364 368 372 376 380 384 388 392 396 400 404 408 412 416 420 424 428 432 436 440 444 448 452 456 460 464 468 472 476 480 ], adjncy = [24 6 2 1 25 7 4 0 26 12 0 3 27 13 5 2 28 18 1 5 29 19 3 4 48 0 8 7 49 1 10 6 50 14 6 9 51 15 11 8 52 20 7 11 53 21 9 10 72 2 14 13 73 3 16 12 74 8 12 15 75 9 17 14 76 22 13 17 77 23 15 16 96 4 20 19 97 5 22 18 98 10 18 21 99 11 23 20 100 16 19 23 101 17 21 22 0 30 26 25 1 31 28 24 2 36 24 27 3 37 29 26 4 42 25 29 5 43 27 28 54 24 32 31 55 25 34 30 56 38 30 33 57 39 35 32 58 44 31 35 59 45 33 34 78 26 38 37 79 27 40 36 80 32 36 39 81 33 41 38 82 46 37 41 83 47 39 40 102 28 44 43 103 29 46 42 104 34 42 45 105 35 47 44 106 40 43 47 107 41 45 46 6 54 50 49 7 55 52 48 8 60 48 51 9 61 53 50 10 66 49 53 11 67 51 52 30 48 56 55 31 49 58 54 32 62 54 57 33 63 59 56 34 68 55 59 35 69 57 58 84 50 62 61 85 51 64 60 86 56 60 63 87 57 65 62 88 70 61 65 89 71 63 64 108 52 68 67 109 53 70 66 110 58 66 69 111 59 71 68 112 64 67 71 113 65 69 70 12 78 74 73 13 79 76 72 14 84 72 75 15 85 77 74 16 90 73 77 17 91 75 76 36 72 80 79 37 73 82 78 38 86 78 81 39 87 83 80 40 92 79 83 41 93 81 82 60 74 86 85 61 75 88 84 62 80 84 87 63 81 89 86 64 94 85 89 65 95 87 88 114 76 92 91 115 77 94 90 116 82 90 93 117 83 95 92 118 88 91 95 119 89 93 94 18 102 98 97 19 103 100 96 20 108 96 99 21 109 101 98 22 114 97 101 23 115 99 100 42 96 104 103 43 97 106 102 44 110 102 105 45 111 107 104 46 116 103 107 47 117 105 106 66 98 110 109 67 99 112 108 68 104 108 111 69 105 113 110 70 118 109 113 71 119 111 112 90 100 116 115 91 101 118 114 92 106 114 117 93 107 119 116 94 112 115 119 95 113 117 118 ]
 [INFO][Rank 0] Rank 0: METIS parameters: nvtxs = 120, ncon = 1, nparts = 2
+[INFO][Rank 1] Converted graph to METIS format: xadj size=121, adjncy size=480
 [INFO][Rank 0] Rank 0: METIS partitioning completed, objval = 24
 [INFO][Rank 0] Rank 0: Partitioning completed, partition size = 120
 [INFO][Rank 0] Rank 0: Assigned 60 local vertices.
 [INFO][Rank 0] Rank 0: Starting parallel IST construction for 60 vertices.
+[INFO][Rank 1] Rank 1: xadj = [0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212 216 220 224 228 232 236 240 244 248 252 256 260 264 268 272 276 280 284 288 292 296 300 304 308 312 316 320 324 328 332 336 340 344 348 352 356 360 364 368 372 376 380 384 388 392 396 400 404 408 412 416 420 424 428 432 436 440 444 448 452 456 460 464 468 472 476 480 ], adjncy = [24 6 2 1 25 7 4 0 26 12 0 3 27 13 5 2 28 18 1 5 29 19 3 4 48 0 8 7 49 1 10 6 50 14 6 9 51 15 11 8 52 20 7 11 53 21 9 10 72 2 14 13 73 3 16 12 74 8 12 15 75 9 17 14 76 22 13 17 77 23 15 16 96 4 20 19 97 5 22 18 98 10 18 21 99 11 23 20 100 16 19 23 101 17 21 22 0 30 26 25 1 31 28 24 2 36 24 27 3 37 29 26 4 42 25 29 5 43 27 28 54 24 32 31 55 25 34 30 56 38 30 33 57 39 35 32 58 44 31 35 59 45 33 34 78 26 38 37 79 27 40 36 80 32 36 39 81 33 41 38 82 46 37 41 83 47 39 40 102 28 44 43 103 29 46 42 104 34 42 45 105 35 47 44 106 40 43 47 107 41 45 46 6 54 50 49 7 55 52 48 8 60 48 51 9 61 53 50 10 66 49 53 11 67 51 52 30 48 56 55 31 49 58 54 32 62 54 57 33 63 59 56 34 68 55 59 35 69 57 58 84 50 62 61 85 51 64 60 86 56 60 63 87 57 65 62 88 70 61 65 89 71 63 64 108 52 68 67 109 53 70 66 110 58 66 69 111 59 71 68 112 64 67 71 113 65 69 70 12 78 74 73 13 79 76 72 14 84 72 75 15 85 77 74 16 90 73 77 17 91 75 76 36 72 80 79 37 73 82 78 38 86 78 81 39 87 83 80 40 92 79 83 41 93 81 82 60 74 86 85 61 75 88 84 62 80 84 87 63 81 89 86 64 94 85 89 65 95 87 88 114 76 92 91 115 77 94 90 116 82 90 93 117 83 95 92 118 88 91 95 119 89 93 94 18 102 98 97 19 103 100 96 20 108 96 99 21 109 101 98 22 114 97 101 23 115 99 100 42 96 104 103 43 97 106 102 44 110 102 105 45 111 107 104 46 116 103 107 47 117 105 106 66 98 110 109 67 99 112 108 68 104 108 111 69 105 113 110 70 118 109 113 71 119 111 112 90 100 116 115 91 101 118 114 92 106 114 117 93 107 119 116 94 112 115 119 95 113 117 118 ]
+[INFO][Rank 1] Rank 1: METIS parameters: nvtxs = 120, ncon = 1, nparts = 2
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 0
 [INFO][Rank 0] Computing parent1 for vertex 0, tree T_1
 [INFO][Rank 0] Parent of vertex 0 in T_1 is 24
@@ -82,6 +85,8 @@
 [INFO][Rank 0] Parent of vertex 7 in T_2 is 1
 [INFO][Rank 0] Computing parent1 for vertex 7, tree T_3
 [INFO][Rank 0] Parent of vertex 7 in T_3 is 10
+[INFO][Rank 1] Rank 1: METIS partitioning completed, objval = 24
+[INFO][Rank 1] Rank 1: Starting parallel IST construction for 60 vertices.
 [INFO][Rank 0] Computing parent1 for vertex 7, tree T_4
 [INFO][Rank 0] Parent of vertex 7 in T_4 is 6
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 10
@@ -94,6 +99,16 @@
 [INFO][Rank 0] Computing parent1 for vertex 10, tree T_4
 [INFO][Rank 0] Parent of vertex 10 in T_4 is 11
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 11
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 8
+[INFO][Rank 1] Computing parent1 for vertex 8, tree T_1
+[INFO][Rank 1] Parent of vertex 8 in T_1 is 50
+[INFO][Rank 1] Computing parent1 for vertex 8, tree T_2
+[INFO][Rank 1] Parent of vertex 8 in T_2 is 14
+[INFO][Rank 1] Computing parent1 for vertex 8, tree T_3
+[INFO][Rank 1] Parent of vertex 8 in T_3 is 6
+[INFO][Rank 1] Computing parent1 for vertex 8, tree T_4
+[INFO][Rank 1] Parent of vertex 8 in T_4 is 9
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 9
 [INFO][Rank 0] Computing parent1 for vertex 11, tree T_1
 [INFO][Rank 0] Parent of vertex 11 in T_1 is 53
 [INFO][Rank 0] Computing parent1 for vertex 11, tree T_2
@@ -107,28 +122,56 @@
 [INFO][Rank 0] Parent of vertex 18 in T_1 is 96
 [INFO][Rank 0] Computing parent1 for vertex 18, tree T_2
 [INFO][Rank 0] Parent of vertex 18 in T_2 is 4
+[INFO][Rank 1] Computing parent1 for vertex 9, tree T_1
+[INFO][Rank 1] Parent of vertex 9 in T_1 is 51
+[INFO][Rank 1] Computing parent1 for vertex 9, tree T_2
+[INFO][Rank 1] Parent of vertex 9 in T_2 is 15
+[INFO][Rank 1] Computing parent1 for vertex 9, tree T_3
 [INFO][Rank 0] Computing parent1 for vertex 18, tree T_3
 [INFO][Rank 0] Parent of vertex 18 in T_3 is 20
 [INFO][Rank 0] Computing parent1 for vertex 18, tree T_4
+[INFO][Rank 1] Parent of vertex 9 in T_3 is 11
+[INFO][Rank 1] Computing parent1 for vertex 9, tree T_4
 [INFO][Rank 0] Parent of vertex 18 in T_4 is 19
+[INFO][Rank 1] Parent of vertex 9 in T_4 is 8
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 19
 [INFO][Rank 0] Computing parent1 for vertex 19, tree T_1
 [INFO][Rank 0] Parent of vertex 19 in T_1 is 97
 [INFO][Rank 0] Computing parent1 for vertex 19, tree T_2
 [INFO][Rank 0] Parent of vertex 19 in T_2 is 5
 [INFO][Rank 0] Computing parent1 for vertex 19, tree T_3
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 12
+[INFO][Rank 1] Computing parent1 for vertex 12, tree T_1
+[INFO][Rank 1] Parent of vertex 12 in T_1 is 72
+[INFO][Rank 1] Computing parent1 for vertex 12, tree T_2
+[INFO][Rank 1] Parent of vertex 12 in T_2 is 2
 [INFO][Rank 0] Parent of vertex 19 in T_3 is 22
 [INFO][Rank 0] Computing parent1 for vertex 19, tree T_4
 [INFO][Rank 0] Parent of vertex 19 in T_4 is 18
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 20
 [INFO][Rank 0] Computing parent1 for vertex 20, tree T_1
 [INFO][Rank 0] Parent of vertex 20 in T_1 is 98
+[INFO][Rank 1] Computing parent1 for vertex 12, tree T_3
+[INFO][Rank 1] Parent of vertex 12 in T_3 is 14
+[INFO][Rank 1] Computing parent1 for vertex 12, tree T_4
+[INFO][Rank 1] Parent of vertex 12 in T_4 is 13
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 13
+[INFO][Rank 1] Computing parent1 for vertex 13, tree T_1
+[INFO][Rank 1] Parent of vertex 13 in T_1 is 73
+[INFO][Rank 1] Computing parent1 for vertex 13, tree T_2
+[INFO][Rank 1] Parent of vertex 13 in T_2 is 3
+[INFO][Rank 1] Computing parent1 for vertex 13, tree T_3
 [INFO][Rank 0] Computing parent1 for vertex 20, tree T_2
 [INFO][Rank 0] Parent of vertex 20 in T_2 is 10
 [INFO][Rank 0] Computing parent1 for vertex 20, tree T_3
 [INFO][Rank 0] Parent of vertex 20 in T_3 is 18
 [INFO][Rank 0] Computing parent1 for vertex 20, tree T_4
 [INFO][Rank 0] Parent of vertex 20 in T_4 is 21
+[INFO][Rank 1] Parent of vertex 13 in T_3 is 16
+[INFO][Rank 1] Computing parent1 for vertex 13, tree T_4
+[INFO][Rank 1] Parent of vertex 13 in T_4 is 12
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 14
+[INFO][Rank 1] Computing parent1 for vertex 14, tree T_1
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 21
 [INFO][Rank 0] Computing parent1 for vertex 21, tree T_1
 [INFO][Rank 0] Parent of vertex 21 in T_1 is 99
@@ -136,12 +179,22 @@
 [INFO][Rank 0] Parent of vertex 21 in T_2 is 11
 [INFO][Rank 0] Computing parent1 for vertex 21, tree T_3
 [INFO][Rank 0] Parent of vertex 21 in T_3 is 23
+[INFO][Rank 1] Parent of vertex 14 in T_1 is 74
+[INFO][Rank 1] Computing parent1 for vertex 14, tree T_2
+[INFO][Rank 1] Parent of vertex 14 in T_2 is 8
+[INFO][Rank 1] Computing parent1 for vertex 14, tree T_3
+[INFO][Rank 1] Parent of vertex 14 in T_3 is 12
 [INFO][Rank 0] Computing parent1 for vertex 21, tree T_4
 [INFO][Rank 0] Parent of vertex 21 in T_4 is 20
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 24
 [INFO][Rank 0] Computing parent1 for vertex 24, tree T_1
 [INFO][Rank 0] Parent of vertex 24 in T_1 is 0
 [INFO][Rank 0] Computing parent1 for vertex 24, tree T_2
+[INFO][Rank 1] Computing parent1 for vertex 14, tree T_4
+[INFO][Rank 1] Parent of vertex 14 in T_4 is 15
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 15
+[INFO][Rank 1] Computing parent1 for vertex 15, tree T_1
+[INFO][Rank 1] Parent of vertex 15 in T_1 is 75
 [INFO][Rank 0] Parent of vertex 24 in T_2 is 30
 [INFO][Rank 0] Computing parent1 for vertex 24, tree T_3
 [INFO][Rank 0] Parent of vertex 24 in T_3 is 26
@@ -155,6 +208,11 @@
 [INFO][Rank 0] Computing parent1 for vertex 25, tree T_3
 [INFO][Rank 0] Parent of vertex 25 in T_3 is 28
 [INFO][Rank 0] Computing parent1 for vertex 25, tree T_4
+[INFO][Rank 1] Computing parent1 for vertex 15, tree T_2
+[INFO][Rank 1] Parent of vertex 15 in T_2 is 9
+[INFO][Rank 1] Computing parent1 for vertex 15, tree T_3
+[INFO][Rank 1] Parent of vertex 15 in T_3 is 17
+[INFO][Rank 1] Computing parent1 for vertex 15, tree T_4
 [INFO][Rank 0] Parent of vertex 25 in T_4 is 24
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 26
 [INFO][Rank 0] Computing parent1 for vertex 26, tree T_1
@@ -162,12 +220,31 @@
 [INFO][Rank 0] Computing parent1 for vertex 26, tree T_2
 [INFO][Rank 0] Parent of vertex 26 in T_2 is 36
 [INFO][Rank 0] Computing parent1 for vertex 26, tree T_3
+[INFO][Rank 1] Parent of vertex 15 in T_4 is 14
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 16
+[INFO][Rank 1] Computing parent1 for vertex 16, tree T_1
+[INFO][Rank 1] Parent of vertex 16 in T_1 is 76
+[INFO][Rank 1] Computing parent1 for vertex 16, tree T_2
+[INFO][Rank 1] Parent of vertex 16 in T_2 is 22
+[INFO][Rank 1] Computing parent1 for vertex 16, tree T_3
+[INFO][Rank 1] Parent of vertex 16 in T_3 is 13
+[INFO][Rank 1] Computing parent1 for vertex 16, tree T_4
+[INFO][Rank 1] Parent of vertex 16 in T_4 is 17
 [INFO][Rank 0] Parent of vertex 26 in T_3 is 24
 [INFO][Rank 0] Computing parent1 for vertex 26, tree T_4
 [INFO][Rank 0] Parent of vertex 26 in T_4 is 27
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 27
 [INFO][Rank 0] Computing parent1 for vertex 27, tree T_1
 [INFO][Rank 0] Parent of vertex 27 in T_1 is 3
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 17
+[INFO][Rank 1] Computing parent1 for vertex 17, tree T_1
+[INFO][Rank 1] Parent of vertex 17 in T_1 is 77
+[INFO][Rank 1] Computing parent1 for vertex 17, tree T_2
+[INFO][Rank 1] Parent of vertex 17 in T_2 is 23
+[INFO][Rank 1] Computing parent1 for vertex 17, tree T_3
+[INFO][Rank 1] Parent of vertex 17 in T_3 is 15
+[INFO][Rank 1] Computing parent1 for vertex 17, tree T_4
+[INFO][Rank 1] Parent of vertex 17 in T_4 is 16
 [INFO][Rank 0] Computing parent1 for vertex 27, tree T_2
 [INFO][Rank 0] Parent of vertex 27 in T_2 is 37
 [INFO][Rank 0] Computing parent1 for vertex 27, tree T_3
@@ -177,9 +254,18 @@
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 28
 [INFO][Rank 0] Computing parent1 for vertex 28, tree T_1
 [INFO][Rank 0] Parent of vertex 28 in T_1 is 4
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 22
+[INFO][Rank 1] Computing parent1 for vertex 22, tree T_1
+[INFO][Rank 1] Parent of vertex 22 in T_1 is 100
 [INFO][Rank 0] Computing parent1 for vertex 28, tree T_2
 [INFO][Rank 0] Parent of vertex 28 in T_2 is 42
 [INFO][Rank 0] Computing parent1 for vertex 28, tree T_3
+[INFO][Rank 1] Computing parent1 for vertex 22, tree T_2
+[INFO][Rank 1] Parent of vertex 22 in T_2 is 16
+[INFO][Rank 1] Computing parent1 for vertex 22, tree T_3
+[INFO][Rank 1] Parent of vertex 22 in T_3 is 19
+[INFO][Rank 1] Computing parent1 for vertex 22, tree T_4
+[INFO][Rank 1] Parent of vertex 22 in T_4 is 23
 [INFO][Rank 0] Parent of vertex 28 in T_3 is 25
 [INFO][Rank 0] Computing parent1 for vertex 28, tree T_4
 [INFO][Rank 0] Parent of vertex 28 in T_4 is 29
@@ -191,50 +277,114 @@
 [INFO][Rank 0] Computing parent1 for vertex 29, tree T_3
 [INFO][Rank 0] Parent of vertex 29 in T_3 is 27
 [INFO][Rank 0] Computing parent1 for vertex 29, tree T_4
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 23
+[INFO][Rank 1] Computing parent1 for vertex 23, tree T_1
+[INFO][Rank 1] Parent of vertex 23 in T_1 is 101
+[INFO][Rank 1] Computing parent1 for vertex 23, tree T_2
+[INFO][Rank 1] Parent of vertex 23 in T_2 is 17
+[INFO][Rank 1] Computing parent1 for vertex 23, tree T_3
+[INFO][Rank 1] Parent of vertex 23 in T_3 is 21
 [INFO][Rank 0] Parent of vertex 29 in T_4 is 28
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 30
 [INFO][Rank 0] Computing parent1 for vertex 30, tree T_1
 [INFO][Rank 0] Parent of vertex 30 in T_1 is 54
 [INFO][Rank 0] Computing parent1 for vertex 30, tree T_2
 [INFO][Rank 0] Parent of vertex 30 in T_2 is 24
+[INFO][Rank 1] Computing parent1 for vertex 23, tree T_4
+[INFO][Rank 1] Parent of vertex 23 in T_4 is 22
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 36
+[INFO][Rank 1] Computing parent1 for vertex 36, tree T_1
+[INFO][Rank 1] Parent of vertex 36 in T_1 is 78
+[INFO][Rank 1] Computing parent1 for vertex 36, tree T_2
+[INFO][Rank 1] Parent of vertex 36 in T_2 is 26
+[INFO][Rank 1] Computing parent1 for vertex 36, tree T_3
+[INFO][Rank 1] Parent of vertex 36 in T_3 is 38
 [INFO][Rank 0] Computing parent1 for vertex 30, tree T_3
 [INFO][Rank 0] Parent of vertex 30 in T_3 is 32
 [INFO][Rank 0] Computing parent1 for vertex 30, tree T_4
+[INFO][Rank 1] Computing parent1 for vertex 36, tree T_4
 [INFO][Rank 0] Parent of vertex 30 in T_4 is 31
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 31
 [INFO][Rank 0] Computing parent1 for vertex 31, tree T_1
-[INFO][Rank 1] Converted graph to METIS format: xadj size=121, adjncy size=480
 [INFO][Rank 0] Parent of vertex 31 in T_1 is 55
 [INFO][Rank 0] Computing parent1 for vertex 31, tree T_2
 [INFO][Rank 0] Parent of vertex 31 in T_2 is 25
+[INFO][Rank 1] Parent of vertex 36 in T_4 is 37
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 37
+[INFO][Rank 1] Computing parent1 for vertex 37, tree T_1
+[INFO][Rank 1] Parent of vertex 37 in T_1 is 79
+[INFO][Rank 1] Computing parent1 for vertex 37, tree T_2
+[INFO][Rank 1] Parent of vertex 37 in T_2 is 27
 [INFO][Rank 0] Computing parent1 for vertex 31, tree T_3
 [INFO][Rank 0] Parent of vertex 31 in T_3 is 34
+[INFO][Rank 1] Computing parent1 for vertex 37, tree T_3
+[INFO][Rank 1] Parent of vertex 37 in T_3 is 40
+[INFO][Rank 1] Computing parent1 for vertex 37, tree T_4
 [INFO][Rank 0] Computing parent1 for vertex 31, tree T_4
+[INFO][Rank 1] Parent of vertex 37 in T_4 is 36
 [INFO][Rank 0] Parent of vertex 31 in T_4 is 30
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 32
 [INFO][Rank 0] Computing parent1 for vertex 32, tree T_1
 [INFO][Rank 0] Parent of vertex 32 in T_1 is 56
 [INFO][Rank 0] Computing parent1 for vertex 32, tree T_2
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 38
+[INFO][Rank 1] Computing parent1 for vertex 38, tree T_1
+[INFO][Rank 1] Parent of vertex 38 in T_1 is 80
+[INFO][Rank 1] Computing parent1 for vertex 38, tree T_2
+[INFO][Rank 1] Parent of vertex 38 in T_2 is 32
+[INFO][Rank 1] Computing parent1 for vertex 38, tree T_3
 [INFO][Rank 0] Parent of vertex 32 in T_2 is 38
 [INFO][Rank 0] Computing parent1 for vertex 32, tree T_3
 [INFO][Rank 0] Parent of vertex 32 in T_3 is 30
 [INFO][Rank 0] Computing parent1 for vertex 32, tree T_4
 [INFO][Rank 0] Parent of vertex 32 in T_4 is 33
+[INFO][Rank 1] Parent of vertex 38 in T_3 is 36
+[INFO][Rank 1] Computing parent1 for vertex 38, tree T_4
+[INFO][Rank 1] Parent of vertex 38 in T_4 is 39
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 39
+[INFO][Rank 1] Computing parent1 for vertex 39, tree T_1
+[INFO][Rank 1] Parent of vertex 39 in T_1 is 81
+[INFO][Rank 1] Computing parent1 for vertex 39, tree T_2
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 33
 [INFO][Rank 0] Computing parent1 for vertex 33, tree T_1
 [INFO][Rank 0] Parent of vertex 33 in T_1 is 57
 [INFO][Rank 0] Computing parent1 for vertex 33, tree T_2
 [INFO][Rank 0] Parent of vertex 33 in T_2 is 39
+[INFO][Rank 1] Parent of vertex 39 in T_2 is 33
+[INFO][Rank 1] Computing parent1 for vertex 39, tree T_3
+[INFO][Rank 1] Parent of vertex 39 in T_3 is 41
+[INFO][Rank 1] Computing parent1 for vertex 39, tree T_4
+[INFO][Rank 1] Parent of vertex 39 in T_4 is 38
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 40
+[INFO][Rank 1] Computing parent1 for vertex 40, tree T_1
+[INFO][Rank 1] Parent of vertex 40 in T_1 is 82
+[INFO][Rank 1] Computing parent1 for vertex 40, tree T_2
+[INFO][Rank 1] Parent of vertex 40 in T_2 is 46
+[INFO][Rank 1] Computing parent1 for vertex 40, tree T_3
+[INFO][Rank 1] Parent of vertex 40 in T_3 is 37
+[INFO][Rank 1] Computing parent1 for vertex 40, tree T_4
 [INFO][Rank 0] Computing parent1 for vertex 33, tree T_3
 [INFO][Rank 0] Parent of vertex 33 in T_3 is 35
 [INFO][Rank 0] Computing parent1 for vertex 33, tree T_4
 [INFO][Rank 0] Parent of vertex 33 in T_4 is 32
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 34
+[INFO][Rank 1] Parent of vertex 40 in T_4 is 41
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 41
+[INFO][Rank 1] Computing parent1 for vertex 41, tree T_1
+[INFO][Rank 1] Parent of vertex 41 in T_1 is 83
+[INFO][Rank 1] Computing parent1 for vertex 41, tree T_2
+[INFO][Rank 1] Parent of vertex 41 in T_2 is 47
 [INFO][Rank 0] Computing parent1 for vertex 34, tree T_1
 [INFO][Rank 0] Parent of vertex 34 in T_1 is 58
 [INFO][Rank 0] Computing parent1 for vertex 34, tree T_2
 [INFO][Rank 0] Parent of vertex 34 in T_2 is 44
 [INFO][Rank 0] Computing parent1 for vertex 34, tree T_3
+[INFO][Rank 1] Computing parent1 for vertex 41, tree T_3
+[INFO][Rank 1] Parent of vertex 41 in T_3 is 39
+[INFO][Rank 1] Computing parent1 for vertex 41, tree T_4
+[INFO][Rank 1] Parent of vertex 41 in T_4 is 40
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 46
+[INFO][Rank 1] Computing parent1 for vertex 46, tree T_1
 [INFO][Rank 0] Parent of vertex 34 in T_3 is 31
 [INFO][Rank 0] Computing parent1 for vertex 34, tree T_4
 [INFO][Rank 0] Parent of vertex 34 in T_4 is 35
@@ -246,6 +396,18 @@
 [INFO][Rank 0] Computing parent1 for vertex 35, tree T_3
 [INFO][Rank 0] Parent of vertex 35 in T_3 is 33
 [INFO][Rank 0] Computing parent1 for vertex 35, tree T_4
+[INFO][Rank 1] Parent of vertex 46 in T_1 is 106
+[INFO][Rank 1] Computing parent1 for vertex 46, tree T_2
+[INFO][Rank 1] Parent of vertex 46 in T_2 is 40
+[INFO][Rank 1] Computing parent1 for vertex 46, tree T_3
+[INFO][Rank 1] Parent of vertex 46 in T_3 is 43
+[INFO][Rank 1] Computing parent1 for vertex 46, tree T_4
+[INFO][Rank 1] Parent of vertex 46 in T_4 is 47
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 47
+[INFO][Rank 1] Computing parent1 for vertex 47, tree T_1
+[INFO][Rank 1] Parent of vertex 47 in T_1 is 107
+[INFO][Rank 1] Computing parent1 for vertex 47, tree T_2
+[INFO][Rank 1] Parent of vertex 47 in T_2 is 41
 [INFO][Rank 0] Parent of vertex 35 in T_4 is 34
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 42
 [INFO][Rank 0] Computing parent1 for vertex 42, tree T_1
@@ -255,22 +417,35 @@
 [INFO][Rank 0] Computing parent1 for vertex 42, tree T_3
 [INFO][Rank 0] Parent of vertex 42 in T_3 is 44
 [INFO][Rank 0] Computing parent1 for vertex 42, tree T_4
+[INFO][Rank 1] Computing parent1 for vertex 47, tree T_3
+[INFO][Rank 1] Parent of vertex 47 in T_3 is 45
+[INFO][Rank 1] Computing parent1 for vertex 47, tree T_4
 [INFO][Rank 0] Parent of vertex 42 in T_4 is 43
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 43
 [INFO][Rank 0] Computing parent1 for vertex 43, tree T_1
+[INFO][Rank 1] Parent of vertex 47 in T_4 is 46
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 50
 [INFO][Rank 0] Parent of vertex 43 in T_1 is 103
 [INFO][Rank 0] Computing parent1 for vertex 43, tree T_2
 [INFO][Rank 0] Parent of vertex 43 in T_2 is 29
 [INFO][Rank 0] Computing parent1 for vertex 43, tree T_3
-[INFO][Rank 1] Rank 1: xadj = [0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212 216 220 224 228 232 236 240 244 248 252 256 260 264 268 272 276 280 284 288 292 296 300 304 308 312 316 320 324 328 332 336 340 344 348 352 356 360 364 368 372 376 380 384 388 392 396 400 404 408 412 416 420 424 428 432 436 440 444 448 452 456 460 464 468 472 476 480 ], adjncy = [24 6 2 1 25 7 4 0 26 12 0 3 27 13 5 2 28 18 1 5 29 19 3 4 48 0 8 7 49 1 10 6 50 14 6 9 51 15 11 8 52 20 7 11 53 21 9 10 72 2 14 13 73 3 16 12 74 8 12 15 75 9 17 14 76 22 13 17 77 23 15 16 96 4 20 19 97 5 22 18 98 10 18 21 99 11 23 20 100 16 19 23 101 17 21 22 0 30 26 25 1 31 28 24 2 36 24 27 3 37 29 26 4 42 25 29 5 43 27 28 54 24 32 31 55 25 34 30 56 38 30 33 57 39 35 32 58 44 31 35 59 45 33 34 78 26 38 37 79 27 40 36 80 32 36 39 81 33 41 38 82 46 37 41 83 47 39 40 102 28 44 43 103 29 46 42 104 34 42 45 105 35 47 44 106 40 43 47 107 41 45 46 6 54 50 49 7 55 52 48 8 60 48 51 9 61 53 50 10 66 49 53 11 67 51 52 30 48 56 55 31 49 58 54 32 62 54 57 33 63 59 56 34 68 55 59 35 69 57 58 84 50 62 61 85 51 64 60 86 56 60 63 87 57 65 62 88 70 61 65 89 71 63 64 108 52 68 67 109 53 70 66 110 58 66 69 111 59 71 68 112 64 67 71 113 65 69 70 12 78 74 73 13 79 76 72 14 84 72 75 15 85 77 74 16 90 73 77 17 91 75 76 36 72 80 79 37 73 82 78 38 86 78 81 39 87 83 80 40 92 79 83 41 93 81 82 60 74 86 85 61 75 88 84 62 80 84 87 63 81 89 86 64 94 85 89 65 95 87 88 114 76 92 91 115 77 94 90 116 82 90 93 117 83 95 92 118 88 91 95 119 89 93 94 18 102 98 97 19 103 100 96 20 108 96 99 21 109 101 98 22 114 97 101 23 115 99 100 42 96 104 103 43 97 106 102 44 110 102 105 45 111 107 104 46 116 103 107 47 117 105 106 66 98 110 109 67 99 112 108 68 104 108 111 69 105 113 110 70 118 109 113 71 119 111 112 90 100 116 115 91 101 118 114 92 106 114 117 93 107 119 116 94 112 115 119 95 113 117 118 ]
-[INFO][Rank 1] Rank 1: METIS parameters: nvtxs = 120, ncon = 1, nparts = 2
 [INFO][Rank 0] Parent of vertex 43 in T_3 is 46
 [INFO][Rank 0] Computing parent1 for vertex 43, tree T_4
+[INFO][Rank 1] Computing parent1 for vertex 50, tree T_1
+[INFO][Rank 1] Parent of vertex 50 in T_1 is 8
+[INFO][Rank 1] Computing parent1 for vertex 50, tree T_2
+[INFO][Rank 1] Parent of vertex 50 in T_2 is 60
+[INFO][Rank 1] Computing parent1 for vertex 50, tree T_3
 [INFO][Rank 0] Parent of vertex 43 in T_4 is 42
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 44
 [INFO][Rank 0] Computing parent1 for vertex 44, tree T_1
 [INFO][Rank 0] Parent of vertex 44 in T_1 is 104
 [INFO][Rank 0] Computing parent1 for vertex 44, tree T_2
+[INFO][Rank 1] Parent of vertex 50 in T_3 is 48
+[INFO][Rank 1] Computing parent1 for vertex 50, tree T_4
+[INFO][Rank 1] Parent of vertex 50 in T_4 is 51
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 51
+[INFO][Rank 1] Computing parent1 for vertex 51, tree T_1
 [INFO][Rank 0] Parent of vertex 44 in T_2 is 34
 [INFO][Rank 0] Computing parent1 for vertex 44, tree T_3
 [INFO][Rank 0] Parent of vertex 44 in T_3 is 42
@@ -278,12 +453,28 @@
 [INFO][Rank 0] Parent of vertex 44 in T_4 is 45
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 45
 [INFO][Rank 0] Computing parent1 for vertex 45, tree T_1
+[INFO][Rank 1] Parent of vertex 51 in T_1 is 9
+[INFO][Rank 1] Computing parent1 for vertex 51, tree T_2
+[INFO][Rank 1] Parent of vertex 51 in T_2 is 61
+[INFO][Rank 1] Computing parent1 for vertex 51, tree T_3
+[INFO][Rank 1] Parent of vertex 51 in T_3 is 53
+[INFO][Rank 1] Computing parent1 for vertex 51, tree T_4
 [INFO][Rank 0] Parent of vertex 45 in T_1 is 105
 [INFO][Rank 0] Computing parent1 for vertex 45, tree T_2
 [INFO][Rank 0] Parent of vertex 45 in T_2 is 35
 [INFO][Rank 0] Computing parent1 for vertex 45, tree T_3
 [INFO][Rank 0] Parent of vertex 45 in T_3 is 47
 [INFO][Rank 0] Computing parent1 for vertex 45, tree T_4
+[INFO][Rank 1] Parent of vertex 51 in T_4 is 50
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 60
+[INFO][Rank 1] Computing parent1 for vertex 60, tree T_1
+[INFO][Rank 1] Parent of vertex 60 in T_1 is 84
+[INFO][Rank 1] Computing parent1 for vertex 60, tree T_2
+[INFO][Rank 1] Parent of vertex 60 in T_2 is 50
+[INFO][Rank 1] Computing parent1 for vertex 60, tree T_3
+[INFO][Rank 1] Parent of vertex 60 in T_3 is 62
+[INFO][Rank 1] Computing parent1 for vertex 60, tree T_4
+[INFO][Rank 1] Parent of vertex 60 in T_4 is 61
 [INFO][Rank 0] Parent of vertex 45 in T_4 is 44
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 48
 [INFO][Rank 0] Computing parent1 for vertex 48, tree T_1
@@ -296,6 +487,16 @@
 [INFO][Rank 0] Parent of vertex 48 in T_4 is 49
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 49
 [INFO][Rank 0] Computing parent1 for vertex 49, tree T_1
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 61
+[INFO][Rank 1] Computing parent1 for vertex 61, tree T_1
+[INFO][Rank 1] Parent of vertex 61 in T_1 is 85
+[INFO][Rank 1] Computing parent1 for vertex 61, tree T_2
+[INFO][Rank 1] Parent of vertex 61 in T_2 is 51
+[INFO][Rank 1] Computing parent1 for vertex 61, tree T_3
+[INFO][Rank 1] Parent of vertex 61 in T_3 is 64
+[INFO][Rank 1] Computing parent1 for vertex 61, tree T_4
+[INFO][Rank 1] Parent of vertex 61 in T_4 is 60
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 62
 [INFO][Rank 0] Parent of vertex 49 in T_1 is 7
 [INFO][Rank 0] Computing parent1 for vertex 49, tree T_2
 [INFO][Rank 0] Parent of vertex 49 in T_2 is 55
@@ -310,18 +511,33 @@
 [INFO][Rank 0] Parent of vertex 52 in T_2 is 66
 [INFO][Rank 0] Computing parent1 for vertex 52, tree T_3
 [INFO][Rank 0] Parent of vertex 52 in T_3 is 49
+[INFO][Rank 1] Computing parent1 for vertex 62, tree T_1
+[INFO][Rank 1] Parent of vertex 62 in T_1 is 86
+[INFO][Rank 1] Computing parent1 for vertex 62, tree T_2
+[INFO][Rank 1] Parent of vertex 62 in T_2 is 56
+[INFO][Rank 1] Computing parent1 for vertex 62, tree T_3
 [INFO][Rank 0] Computing parent1 for vertex 52, tree T_4
 [INFO][Rank 0] Parent of vertex 52 in T_4 is 53
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 53
 [INFO][Rank 0] Computing parent1 for vertex 53, tree T_1
 [INFO][Rank 0] Parent of vertex 53 in T_1 is 11
 [INFO][Rank 0] Computing parent1 for vertex 53, tree T_2
+[INFO][Rank 1] Parent of vertex 62 in T_3 is 60
+[INFO][Rank 1] Computing parent1 for vertex 62, tree T_4
+[INFO][Rank 1] Parent of vertex 62 in T_4 is 63
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 63
+[INFO][Rank 1] Computing parent1 for vertex 63, tree T_1
 [INFO][Rank 0] Parent of vertex 53 in T_2 is 67
 [INFO][Rank 0] Computing parent1 for vertex 53, tree T_3
 [INFO][Rank 0] Parent of vertex 53 in T_3 is 51
 [INFO][Rank 0] Computing parent1 for vertex 53, tree T_4
 [INFO][Rank 0] Parent of vertex 53 in T_4 is 52
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 54
+[INFO][Rank 1] Parent of vertex 63 in T_1 is 87
+[INFO][Rank 1] Computing parent1 for vertex 63, tree T_2
+[INFO][Rank 1] Parent of vertex 63 in T_2 is 57
+[INFO][Rank 1] Computing parent1 for vertex 63, tree T_3
+[INFO][Rank 1] Parent of vertex 63 in T_3 is 65
 [INFO][Rank 0] Computing parent1 for vertex 54, tree T_1
 [INFO][Rank 0] Parent of vertex 54 in T_1 is 30
 [INFO][Rank 0] Computing parent1 for vertex 54, tree T_2
@@ -329,6 +545,16 @@
 [INFO][Rank 0] Computing parent1 for vertex 54, tree T_3
 [INFO][Rank 0] Parent of vertex 54 in T_3 is 56
 [INFO][Rank 0] Computing parent1 for vertex 54, tree T_4
+[INFO][Rank 1] Computing parent1 for vertex 63, tree T_4
+[INFO][Rank 1] Parent of vertex 63 in T_4 is 62
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 64
+[INFO][Rank 1] Computing parent1 for vertex 64, tree T_1
+[INFO][Rank 1] Parent of vertex 64 in T_1 is 88
+[INFO][Rank 1] Computing parent1 for vertex 64, tree T_2
+[INFO][Rank 1] Parent of vertex 64 in T_2 is 70
+[INFO][Rank 1] Computing parent1 for vertex 64, tree T_3
+[INFO][Rank 1] Parent of vertex 64 in T_3 is 61
+[INFO][Rank 1] Computing parent1 for vertex 64, tree T_4
 [INFO][Rank 0] Parent of vertex 54 in T_4 is 55
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 55
 [INFO][Rank 0] Computing parent1 for vertex 55, tree T_1
@@ -341,6 +567,16 @@
 [INFO][Rank 0] Parent of vertex 55 in T_4 is 54
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 56
 [INFO][Rank 0] Computing parent1 for vertex 56, tree T_1
+[INFO][Rank 1] Parent of vertex 64 in T_4 is 65
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 65
+[INFO][Rank 1] Computing parent1 for vertex 65, tree T_1
+[INFO][Rank 1] Parent of vertex 65 in T_1 is 89
+[INFO][Rank 1] Computing parent1 for vertex 65, tree T_2
+[INFO][Rank 1] Parent of vertex 65 in T_2 is 71
+[INFO][Rank 1] Computing parent1 for vertex 65, tree T_3
+[INFO][Rank 1] Parent of vertex 65 in T_3 is 63
+[INFO][Rank 1] Computing parent1 for vertex 65, tree T_4
+[INFO][Rank 1] Parent of vertex 65 in T_4 is 64
 [INFO][Rank 0] Parent of vertex 56 in T_1 is 32
 [INFO][Rank 0] Computing parent1 for vertex 56, tree T_2
 [INFO][Rank 0] Parent of vertex 56 in T_2 is 62
@@ -348,6 +584,11 @@
 [INFO][Rank 0] Parent of vertex 56 in T_3 is 54
 [INFO][Rank 0] Computing parent1 for vertex 56, tree T_4
 [INFO][Rank 0] Parent of vertex 56 in T_4 is 57
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 72
+[INFO][Rank 1] Computing parent1 for vertex 72, tree T_1
+[INFO][Rank 1] Parent of vertex 72 in T_1 is 12
+[INFO][Rank 1] Computing parent1 for vertex 72, tree T_2
+[INFO][Rank 1] Parent of vertex 72 in T_2 is 78
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 57
 [INFO][Rank 0] Computing parent1 for vertex 57, tree T_1
 [INFO][Rank 0] Parent of vertex 57 in T_1 is 33
@@ -361,23 +602,48 @@
 [INFO][Rank 0] Computing parent1 for vertex 58, tree T_1
 [INFO][Rank 0] Parent of vertex 58 in T_1 is 34
 [INFO][Rank 0] Computing parent1 for vertex 58, tree T_2
+[INFO][Rank 1] Computing parent1 for vertex 72, tree T_3
+[INFO][Rank 1] Parent of vertex 72 in T_3 is 74
+[INFO][Rank 1] Computing parent1 for vertex 72, tree T_4
+[INFO][Rank 1] Parent of vertex 72 in T_4 is 73
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 73
 [INFO][Rank 0] Parent of vertex 58 in T_2 is 68
 [INFO][Rank 0] Computing parent1 for vertex 58, tree T_3
 [INFO][Rank 0] Parent of vertex 58 in T_3 is 55
 [INFO][Rank 0] Computing parent1 for vertex 58, tree T_4
 [INFO][Rank 0] Parent of vertex 58 in T_4 is 59
+[INFO][Rank 1] Computing parent1 for vertex 73, tree T_1
+[INFO][Rank 1] Parent of vertex 73 in T_1 is 13
+[INFO][Rank 1] Computing parent1 for vertex 73, tree T_2
+[INFO][Rank 1] Parent of vertex 73 in T_2 is 79
+[INFO][Rank 1] Computing parent1 for vertex 73, tree T_3
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 59
 [INFO][Rank 0] Computing parent1 for vertex 59, tree T_1
 [INFO][Rank 0] Parent of vertex 59 in T_1 is 35
 [INFO][Rank 0] Computing parent1 for vertex 59, tree T_2
 [INFO][Rank 0] Parent of vertex 59 in T_2 is 69
 [INFO][Rank 0] Computing parent1 for vertex 59, tree T_3
+[INFO][Rank 1] Parent of vertex 73 in T_3 is 76
+[INFO][Rank 1] Computing parent1 for vertex 73, tree T_4
+[INFO][Rank 1] Parent of vertex 73 in T_4 is 72
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 74
+[INFO][Rank 1] Computing parent1 for vertex 74, tree T_1
 [INFO][Rank 0] Parent of vertex 59 in T_3 is 57
 [INFO][Rank 0] Computing parent1 for vertex 59, tree T_4
 [INFO][Rank 0] Parent of vertex 59 in T_4 is 58
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 66
 [INFO][Rank 0] Computing parent1 for vertex 66, tree T_1
 [INFO][Rank 0] Parent of vertex 66 in T_1 is 108
+[INFO][Rank 1] Parent of vertex 74 in T_1 is 14
+[INFO][Rank 1] Computing parent1 for vertex 74, tree T_2
+[INFO][Rank 1] Parent of vertex 74 in T_2 is 84
+[INFO][Rank 1] Computing parent1 for vertex 74, tree T_3
+[INFO][Rank 1] Parent of vertex 74 in T_3 is 72
+[INFO][Rank 1] Computing parent1 for vertex 74, tree T_4
+[INFO][Rank 1] Parent of vertex 74 in T_4 is 75
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 75
+[INFO][Rank 1] Computing parent1 for vertex 75, tree T_1
+[INFO][Rank 1] Parent of vertex 75 in T_1 is 15
 [INFO][Rank 0] Computing parent1 for vertex 66, tree T_2
 [INFO][Rank 0] Parent of vertex 66 in T_2 is 52
 [INFO][Rank 0] Computing parent1 for vertex 66, tree T_3
@@ -391,10 +657,23 @@
 [INFO][Rank 0] Parent of vertex 67 in T_2 is 53
 [INFO][Rank 0] Computing parent1 for vertex 67, tree T_3
 [INFO][Rank 0] Parent of vertex 67 in T_3 is 70
+[INFO][Rank 1] Computing parent1 for vertex 75, tree T_2
+[INFO][Rank 1] Parent of vertex 75 in T_2 is 85
+[INFO][Rank 1] Computing parent1 for vertex 75, tree T_3
+[INFO][Rank 1] Parent of vertex 75 in T_3 is 77
+[INFO][Rank 1] Computing parent1 for vertex 75, tree T_4
 [INFO][Rank 0] Computing parent1 for vertex 67, tree T_4
 [INFO][Rank 0] Parent of vertex 67 in T_4 is 66
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 68
+[INFO][Rank 1] Parent of vertex 75 in T_4 is 74
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 76
 [INFO][Rank 0] Computing parent1 for vertex 68, tree T_1
+[INFO][Rank 1] Computing parent1 for vertex 76, tree T_1
+[INFO][Rank 1] Parent of vertex 76 in T_1 is 16
+[INFO][Rank 1] Computing parent1 for vertex 76, tree T_2
+[INFO][Rank 1] Parent of vertex 76 in T_2 is 90
+[INFO][Rank 1] Computing parent1 for vertex 76, tree T_3
+[INFO][Rank 1] Parent of vertex 76 in T_3 is 73
 [INFO][Rank 0] Parent of vertex 68 in T_1 is 110
 [INFO][Rank 0] Computing parent1 for vertex 68, tree T_2
 [INFO][Rank 0] Parent of vertex 68 in T_2 is 58
@@ -402,6 +681,11 @@
 [INFO][Rank 0] Parent of vertex 68 in T_3 is 66
 [INFO][Rank 0] Computing parent1 for vertex 68, tree T_4
 [INFO][Rank 0] Parent of vertex 68 in T_4 is 69
+[INFO][Rank 1] Computing parent1 for vertex 76, tree T_4
+[INFO][Rank 1] Parent of vertex 76 in T_4 is 77
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 77
+[INFO][Rank 1] Computing parent1 for vertex 77, tree T_1
+[INFO][Rank 1] Parent of vertex 77 in T_1 is 17
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 69
 [INFO][Rank 0] Computing parent1 for vertex 69, tree T_1
 [INFO][Rank 0] Parent of vertex 69 in T_1 is 111
@@ -409,6 +693,11 @@
 [INFO][Rank 0] Parent of vertex 69 in T_2 is 59
 [INFO][Rank 0] Computing parent1 for vertex 69, tree T_3
 [INFO][Rank 0] Parent of vertex 69 in T_3 is 71
+[INFO][Rank 1] Computing parent1 for vertex 77, tree T_2
+[INFO][Rank 1] Parent of vertex 77 in T_2 is 91
+[INFO][Rank 1] Computing parent1 for vertex 77, tree T_3
+[INFO][Rank 1] Parent of vertex 77 in T_3 is 75
+[INFO][Rank 1] Computing parent1 for vertex 77, tree T_4
 [INFO][Rank 0] Computing parent1 for vertex 69, tree T_4
 [INFO][Rank 0] Parent of vertex 69 in T_4 is 68
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 70
@@ -418,6 +707,8 @@
 [INFO][Rank 0] Parent of vertex 70 in T_2 is 64
 [INFO][Rank 0] Computing parent1 for vertex 70, tree T_3
 [INFO][Rank 0] Parent of vertex 70 in T_3 is 67
+[INFO][Rank 1] Parent of vertex 77 in T_4 is 76
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 78
 [INFO][Rank 0] Computing parent1 for vertex 70, tree T_4
 [INFO][Rank 0] Parent of vertex 70 in T_4 is 71
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 71
@@ -426,27 +717,55 @@
 [INFO][Rank 0] Computing parent1 for vertex 71, tree T_2
 [INFO][Rank 0] Parent of vertex 71 in T_2 is 65
 [INFO][Rank 0] Computing parent1 for vertex 71, tree T_3
+[INFO][Rank 1] Computing parent1 for vertex 78, tree T_1
+[INFO][Rank 1] Parent of vertex 78 in T_1 is 36
+[INFO][Rank 1] Computing parent1 for vertex 78, tree T_2
+[INFO][Rank 1] Parent of vertex 78 in T_2 is 72
+[INFO][Rank 1] Computing parent1 for vertex 78, tree T_3
+[INFO][Rank 1] Parent of vertex 78 in T_3 is 80
+[INFO][Rank 1] Computing parent1 for vertex 78, tree T_4
+[INFO][Rank 1] Parent of vertex 78 in T_4 is 79
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 79
+[INFO][Rank 1] Computing parent1 for vertex 79, tree T_1
 [INFO][Rank 0] Parent of vertex 71 in T_3 is 69
 [INFO][Rank 0] Computing parent1 for vertex 71, tree T_4
 [INFO][Rank 0] Parent of vertex 71 in T_4 is 70
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 96
 [INFO][Rank 0] Computing parent1 for vertex 96, tree T_1
 [INFO][Rank 0] Parent of vertex 96 in T_1 is 18
+[INFO][Rank 1] Parent of vertex 79 in T_1 is 37
+[INFO][Rank 1] Computing parent1 for vertex 79, tree T_2
+[INFO][Rank 1] Parent of vertex 79 in T_2 is 73
 [INFO][Rank 0] Computing parent1 for vertex 96, tree T_2
 [INFO][Rank 0] Parent of vertex 96 in T_2 is 102
 [INFO][Rank 0] Computing parent1 for vertex 96, tree T_3
+[INFO][Rank 1] Computing parent1 for vertex 79, tree T_3
+[INFO][Rank 1] Parent of vertex 79 in T_3 is 82
+[INFO][Rank 1] Computing parent1 for vertex 79, tree T_4
+[INFO][Rank 1] Parent of vertex 79 in T_4 is 78
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 80
 [INFO][Rank 0] Parent of vertex 96 in T_3 is 98
 [INFO][Rank 0] Computing parent1 for vertex 96, tree T_4
 [INFO][Rank 0] Parent of vertex 96 in T_4 is 97
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 97
 [INFO][Rank 0] Computing parent1 for vertex 97, tree T_1
 [INFO][Rank 0] Parent of vertex 97 in T_1 is 19
+[INFO][Rank 1] Computing parent1 for vertex 80, tree T_1
+[INFO][Rank 1] Parent of vertex 80 in T_1 is 38
+[INFO][Rank 1] Computing parent1 for vertex 80, tree T_2
+[INFO][Rank 1] Parent of vertex 80 in T_2 is 86
+[INFO][Rank 1] Computing parent1 for vertex 80, tree T_3
 [INFO][Rank 0] Computing parent1 for vertex 97, tree T_2
 [INFO][Rank 0] Parent of vertex 97 in T_2 is 103
 [INFO][Rank 0] Computing parent1 for vertex 97, tree T_3
 [INFO][Rank 0] Parent of vertex 97 in T_3 is 100
 [INFO][Rank 0] Computing parent1 for vertex 97, tree T_4
 [INFO][Rank 0] Parent of vertex 97 in T_4 is 96
+[INFO][Rank 1] Parent of vertex 80 in T_3 is 78
+[INFO][Rank 1] Computing parent1 for vertex 80, tree T_4
+[INFO][Rank 1] Parent of vertex 80 in T_4 is 81
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 81
+[INFO][Rank 1] Computing parent1 for vertex 81, tree T_1
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 98
 [INFO][Rank 0] Computing parent1 for vertex 98, tree T_1
 [INFO][Rank 0] Parent of vertex 98 in T_1 is 20
@@ -460,6 +779,16 @@
 [INFO][Rank 0] Computing parent1 for vertex 99, tree T_1
 [INFO][Rank 0] Parent of vertex 99 in T_1 is 21
 [INFO][Rank 0] Computing parent1 for vertex 99, tree T_2
+[INFO][Rank 1] Parent of vertex 81 in T_1 is 39
+[INFO][Rank 1] Computing parent1 for vertex 81, tree T_2
+[INFO][Rank 1] Parent of vertex 81 in T_2 is 87
+[INFO][Rank 1] Computing parent1 for vertex 81, tree T_3
+[INFO][Rank 1] Parent of vertex 81 in T_3 is 83
+[INFO][Rank 1] Computing parent1 for vertex 81, tree T_4
+[INFO][Rank 1] Parent of vertex 81 in T_4 is 80
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 82
+[INFO][Rank 1] Computing parent1 for vertex 82, tree T_1
+[INFO][Rank 1] Parent of vertex 82 in T_1 is 40
 [INFO][Rank 0] Parent of vertex 99 in T_2 is 109
 [INFO][Rank 0] Computing parent1 for vertex 99, tree T_3
 [INFO][Rank 0] Parent of vertex 99 in T_3 is 101
@@ -469,6 +798,13 @@
 [INFO][Rank 0] Computing parent1 for vertex 102, tree T_1
 [INFO][Rank 0] Parent of vertex 102 in T_1 is 42
 [INFO][Rank 0] Computing parent1 for vertex 102, tree T_2
+[INFO][Rank 1] Computing parent1 for vertex 82, tree T_2
+[INFO][Rank 1] Parent of vertex 82 in T_2 is 92
+[INFO][Rank 1] Computing parent1 for vertex 82, tree T_3
+[INFO][Rank 1] Parent of vertex 82 in T_3 is 79
+[INFO][Rank 1] Computing parent1 for vertex 82, tree T_4
+[INFO][Rank 1] Parent of vertex 82 in T_4 is 83
+[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 83
 [INFO][Rank 0] Parent of vertex 102 in T_2 is 96
 [INFO][Rank 0] Computing parent1 for vertex 102, tree T_3
 [INFO][Rank 0] Parent of vertex 102 in T_3 is 104
@@ -476,8 +812,15 @@
 [INFO][Rank 0] Parent of vertex 102 in T_4 is 103
 [INFO][Rank 0] Rank 0, Thread 0: Processing vertex 103
 [INFO][Rank 0] Computing parent1 for vertex 103, tree T_1
+[INFO][Rank 1] Computing parent1 for vertex 83, tree T_1
+[INFO][Rank 1] Parent of vertex 83 in T_1 is 41
 [INFO][Rank 0] Parent of vertex 103 in T_1 is 43
 [INFO][Rank 0] Computing parent1 for vertex 103, tree T_2
+[INFO][Rank 1] Computing parent1 for vertex 83, tree T_2
+[INFO][Rank 1] Parent of vertex 83 in T_2 is 93
+[INFO][Rank 1] Computing parent1 for vertex 83, tree T_3
+[INFO][Rank 1] Parent of vertex 83 in T_3 is 81
+[INFO][Rank 1] Computing parent1 for vertex 83, tree T_4
 [INFO][Rank 0] Parent of vertex 103 in T_2 is 97
 [INFO][Rank 0] Computing parent1 for vertex 103, tree T_3
 [INFO][Rank 0] Parent of vertex 103 in T_3 is 106
@@ -492,416 +835,6 @@
 [INFO][Rank 0] Parent of vertex 104 in T_3 is 102
 [INFO][Rank 0] Computing parent1 for vertex 104, tree T_4
 [INFO][Rank 0] Parent of vertex 104 in T_4 is 105
-[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 105
-[INFO][Rank 0] Computing parent1 for vertex 105, tree T_1
-[INFO][Rank 0] Parent of vertex 105 in T_1 is 45
-[INFO][Rank 0] Computing parent1 for vertex 105, tree T_2
-[INFO][Rank 0] Parent of vertex 105 in T_2 is 111
-[INFO][Rank 0] Computing parent1 for vertex 105, tree T_3
-[INFO][Rank 0] Parent of vertex 105 in T_3 is 107
-[INFO][Rank 0] Computing parent1 for vertex 105, tree T_4
-[INFO][Rank 0] Parent of vertex 105 in T_4 is 104
-[INFO][Rank 1] Rank 1: METIS partitioning completed, objval = 24
-[INFO][Rank 1] Rank 1: Starting parallel IST construction for 60 vertices.
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 8
-[INFO][Rank 1] Computing parent1 for vertex 8, tree T_1
-[INFO][Rank 1] Parent of vertex 8 in T_1 is 50
-[INFO][Rank 1] Computing parent1 for vertex 8, tree T_2
-[INFO][Rank 1] Parent of vertex 8 in T_2 is 14
-[INFO][Rank 1] Computing parent1 for vertex 8, tree T_3
-[INFO][Rank 1] Parent of vertex 8 in T_3 is 6
-[INFO][Rank 1] Computing parent1 for vertex 8, tree T_4
-[INFO][Rank 1] Parent of vertex 8 in T_4 is 9
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 9
-[INFO][Rank 1] Computing parent1 for vertex 9, tree T_1
-[INFO][Rank 1] Parent of vertex 9 in T_1 is 51
-[INFO][Rank 1] Computing parent1 for vertex 9, tree T_2
-[INFO][Rank 1] Parent of vertex 9 in T_2 is 15
-[INFO][Rank 1] Computing parent1 for vertex 9, tree T_3
-[INFO][Rank 1] Parent of vertex 9 in T_3 is 11
-[INFO][Rank 1] Computing parent1 for vertex 9, tree T_4
-[INFO][Rank 1] Parent of vertex 9 in T_4 is 8
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 12
-[INFO][Rank 1] Computing parent1 for vertex 12, tree T_1
-[INFO][Rank 1] Parent of vertex 12 in T_1 is 72
-[INFO][Rank 1] Computing parent1 for vertex 12, tree T_2
-[INFO][Rank 1] Parent of vertex 12 in T_2 is 2
-[INFO][Rank 1] Computing parent1 for vertex 12, tree T_3
-[INFO][Rank 1] Parent of vertex 12 in T_3 is 14
-[INFO][Rank 1] Computing parent1 for vertex 12, tree T_4
-[INFO][Rank 1] Parent of vertex 12 in T_4 is 13
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 13
-[INFO][Rank 1] Computing parent1 for vertex 13, tree T_1
-[INFO][Rank 1] Parent of vertex 13 in T_1 is 73
-[INFO][Rank 1] Computing parent1 for vertex 13, tree T_2
-[INFO][Rank 1] Parent of vertex 13 in T_2 is 3
-[INFO][Rank 1] Computing parent1 for vertex 13, tree T_3
-[INFO][Rank 1] Parent of vertex 13 in T_3 is 16
-[INFO][Rank 1] Computing parent1 for vertex 13, tree T_4
-[INFO][Rank 1] Parent of vertex 13 in T_4 is 12
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 14
-[INFO][Rank 1] Computing parent1 for vertex 14, tree T_1
-[INFO][Rank 1] Parent of vertex 14 in T_1 is 74
-[INFO][Rank 1] Computing parent1 for vertex 14, tree T_2
-[INFO][Rank 1] Parent of vertex 14 in T_2 is 8
-[INFO][Rank 1] Computing parent1 for vertex 14, tree T_3
-[INFO][Rank 1] Parent of vertex 14 in T_3 is 12
-[INFO][Rank 1] Computing parent1 for vertex 14, tree T_4
-[INFO][Rank 1] Parent of vertex 14 in T_4 is 15
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 15
-[INFO][Rank 1] Computing parent1 for vertex 15, tree T_1
-[INFO][Rank 1] Parent of vertex 15 in T_1 is 75
-[INFO][Rank 1] Computing parent1 for vertex 15, tree T_2
-[INFO][Rank 1] Parent of vertex 15 in T_2 is 9
-[INFO][Rank 1] Computing parent1 for vertex 15, tree T_3
-[INFO][Rank 1] Parent of vertex 15 in T_3 is 17
-[INFO][Rank 1] Computing parent1 for vertex 15, tree T_4
-[INFO][Rank 1] Parent of vertex 15 in T_4 is 14
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 16
-[INFO][Rank 1] Computing parent1 for vertex 16, tree T_1
-[INFO][Rank 1] Parent of vertex 16 in T_1 is 76
-[INFO][Rank 1] Computing parent1 for vertex 16, tree T_2
-[INFO][Rank 1] Parent of vertex 16 in T_2 is 22
-[INFO][Rank 1] Computing parent1 for vertex 16, tree T_3
-[INFO][Rank 1] Parent of vertex 16 in T_3 is 13
-[INFO][Rank 1] Computing parent1 for vertex 16, tree T_4
-[INFO][Rank 1] Parent of vertex 16 in T_4 is 17
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 17
-[INFO][Rank 1] Computing parent1 for vertex 17, tree T_1
-[INFO][Rank 1] Parent of vertex 17 in T_1 is 77
-[INFO][Rank 1] Computing parent1 for vertex 17, tree T_2
-[INFO][Rank 1] Parent of vertex 17 in T_2 is 23
-[INFO][Rank 1] Computing parent1 for vertex 17, tree T_3
-[INFO][Rank 1] Parent of vertex 17 in T_3 is 15
-[INFO][Rank 1] Computing parent1 for vertex 17, tree T_4
-[INFO][Rank 1] Parent of vertex 17 in T_4 is 16
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 22
-[INFO][Rank 1] Computing parent1 for vertex 22, tree T_1
-[INFO][Rank 1] Parent of vertex 22 in T_1 is 100
-[INFO][Rank 1] Computing par[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 108
-[INFO][Rank 0] Computing parent1 for vertex 108, tree T_1
-[INFO][Rank 0] Parent of vertex 108 in T_1 is 66
-[INFO][Rank 0] Computing parent1 for vertex 108, tree T_2
-[INFO][Rank 0] Parent of vertex 108 in T_2 is 98
-[INFO][Rank 0] Computing parent1 for vertex 108, tree T_3
-[INFO][Rank 0] Parent of vertex 108 in T_3 is 110
-[INFO][Rank 0] Computing parent1 for vertex 108, tree T_4
-[INFO][Rank 0] Parent of vertex 108 in T_4 is 109
-[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 109
-[INFO][Rank 0] Computing parent1 for vertex 109, tree T_1
-[INFO][Rank 0] Parent of vertex 109 in T_1 is 67
-[INFO][Rank 0] Computing parent1 for vertex 109, tree T_2
-[INFO][Rank 0] Parent of vertex 109 in T_2 is 99
-[INFO][Rank 0] Computing parent1 for vertex 109, tree T_3
-[INFO][Rank 0] Parent of vertex 109 in T_3 is 112
-[INFO][Rank 0] Computing parent1 for vertex 109, tree T_4
-[INFO][Rank 0] Parent of vertex 109 in T_4 is 108
-[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 110
-[INFO][Rank 0] Computing parent1 for vertex 110, tree T_1
-[INFO][Rank 0] Parent of vertex 110 in T_1 is 68
-[INFO][Rank 0] Computing parent1 for vertex 110, tree T_2
-[INFO][Rank 0] Parent of vertex 110 in T_2 is 104
-[INFO][Rank 0] Computing parent1 for vertex 110, tree T_3
-[INFO][Rank 0] Parent of vertex 110 in T_3 is 108
-[INFO][Rank 0] Computing parent1 for vertex 110, tree T_4
-[INFO][Rank 0] Parent of vertex 110 in T_4 is 111
-[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 111
-[INFO][Rank 0] Computing parent1 for vertex 111, tree T_1
-[INFO][Rank 0] Parent of vertex 111 in T_1 is 69
-[INFO][Rank 0] Computing parent1 for vertex 111, tree T_2
-[INFO][Rank 0] Parent of vertex 111 in T_2 is 105
-[INFO][Rank 0] Computing parent1 for vertex 111, tree T_3
-[INFO][Rank 0] Parent of vertex 111 in T_3 is 113
-[INFO][Rank 0] Computing parent1 for vertex 111, tree T_4
-[INFO][Rank 0] Parent of vertex 111 in T_4 is 110
-[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 112
-[INFO][Rank 0] Computing parent1 for vertex 112, tree T_1
-[INFO][Rank 0] Parent of vertex 112 in T_1 is 70
-[INFO][Rank 0] Computing parent1 for vertex 112, tree T_2
-[INFO][Rank 0] Parent of vertex 112 in T_2 is 118
-[INFO][Rank 0] Computing parent1 for vertex 112, tree T_3
-[INFO][Rank 0] Parent of vertex 112 in T_3 is 109
-[INFO][Rank 0] Computing parent1 for vertex 112, tree T_4
-[INFO][Rank 0] Parent of vertex 112 in T_4 is 113
-[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 113
-[INFO][Rank 0] Computing parent1 for vertex 113, tree T_1
-[INFO][Rank 0] Parent of vertex 113 in T_1 is 71
-[INFO][Rank 0] Computing parent1 for vertex 113, tree T_2
-[INFO][Rank 0] Parent of vertex 113 in T_2 is 119
-[INFO][Rank 0] Computing parent1 for vertex 113, tree T_3
-[INFO][Rank 0] Parent of vertex 113 in T_3 is 111
-[INFO][Rank 0] Computing parent1 for vertex 113, tree T_4
-[INFO][Rank 0] Parent of vertex 113 in T_4 is 112
-[INFO][Rank 0] Rank 0: Parallel IST construction completed.
-[INFO][Rank 0] Rank 0: Local IST construction completed, parents size = 60
-[INFO][Rank 0] Rank 0: Entering gather_parents, local_parents size = 60
-[INFO][Rank 0] Rank 0: Gathering counts, local_size = 240
-ent1 for vertex 22, tree T_2
-[INFO][Rank 1] Parent of vertex 22 in T_2 is 16
-[INFO][Rank 1] Computing parent1 for vertex 22, tree T_3
-[INFO][Rank 1] Parent of vertex 22 in T_3 is 19
-[INFO][Rank 1] Computing parent1 for vertex 22, tree T_4
-[INFO][Rank 1] Parent of vertex 22 in T_4 is 23
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 23
-[INFO][Rank 1] Computing parent1 for vertex 23, tree T_1
-[INFO][Rank 1] Parent of vertex 23 in T_1 is 101
-[INFO][Rank 1] Computing parent1 for vertex 23, tree T_2
-[INFO][Rank 1] Parent of vertex 23 in T_2 is 17
-[INFO][Rank 1] Computing parent1 for vertex 23, tree T_3
-[INFO][Rank 1] Parent of vertex 23 in T_3 is 21
-[INFO][Rank 1] Computing parent1 for vertex 23, tree T_4
-[INFO][Rank 1] Parent of vertex 23 in T_4 is 22
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 36
-[INFO][Rank 1] Computing parent1 for vertex 36, tree T_1
-[INFO][Rank 1] Parent of vertex 36 in T_1 is 78
-[INFO][Rank 1] Computing parent1 for vertex 36, tree T_2
-[INFO][Rank 1] Parent of vertex 36 in T_2 is 26
-[INFO][Rank 1] Computing parent1 for vertex 36, tree T_3
-[INFO][Rank 1] Parent of vertex 36 in T_3 is 38
-[INFO][Rank 1] Computing parent1 for vertex 36, tree T_4
-[INFO][Rank 1] Parent of vertex 36 in T_4 is 37
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 37
-[INFO][Rank 1] Computing parent1 for vertex 37, tree T_1
-[INFO][Rank 1] Parent of vertex 37 in T_1 is 79
-[INFO][Rank 1] Computing parent1 for vertex 37, tree T_2
-[INFO][Rank 1] Parent of vertex 37 in T_2 is 27
-[INFO][Rank 1] Computing parent1 for vertex 37, tree T_3
-[INFO][Rank 1] Parent of vertex 37 in T_3 is 40
-[INFO][Rank 1] Computing parent1 for vertex 37, tree T_4
-[INFO][Rank 1] Parent of vertex 37 in T_4 is 36
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 38
-[INFO][Rank 1] Computing parent1 for vertex 38, tree T_1
-[INFO][Rank 1] Parent of vertex 38 in T_1 is 80
-[INFO][Rank 1] Computing parent1 for vertex 38, tree T_2
-[INFO][Rank 1] Parent of vertex 38 in T_2 is 32
-[INFO][Rank 1] Computing parent1 for vertex 38, tree T_3
-[INFO][Rank 1] Parent of vertex 38 in T_3 is 36
-[INFO][Rank 1] Computing parent1 for vertex 38, tree T_4
-[INFO][Rank 1] Parent of vertex 38 in T_4 is 39
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 39
-[INFO][Rank 1] Computing parent1 for vertex 39, tree T_1
-[INFO][Rank 1] Parent of vertex 39 in T_1 is 81
-[INFO][Rank 1] Computing parent1 for vertex 39, tree T_2
-[INFO][Rank 1] Parent of vertex 39 in T_2 is 33
-[INFO][Rank 1] Computing parent1 for vertex 39, tree T_3
-[INFO][Rank 1] Parent of vertex 39 in T_3 is 41
-[INFO][Rank 1] Computing parent1 for vertex 39, tree T_4
-[INFO][Rank 1] Parent of vertex 39 in T_4 is 38
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 40
-[INFO][Rank 1] Computing parent1 for vertex 40, tree T_1
-[INFO][Rank 1] Parent of vertex 40 in T_1 is 82
-[INFO][Rank 1] Computing parent1 for vertex 40, tree T_2
-[INFO][Rank 1] Parent of vertex 40 in T_2 is 46
-[INFO][Rank 1] Computing parent1 for vertex 40, tree T_3
-[INFO][Rank 1] Parent of vertex 40 in T_3 is 37
-[INFO][Rank 1] Computing parent1 for vertex 40, tree T_4
-[INFO][Rank 1] Parent of vertex 40 in T_4 is 41
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 41
-[INFO][Rank 1] Computing parent1 for vertex 41, tree T_1
-[INFO][Rank 1] Parent of vertex 41 in T_1 is 83
-[INFO][Rank 1] Computing parent1 for vertex 41, tree T_2
-[INFO][Rank 1] Parent of vertex 41 in T_2 is 47
-[INFO][Rank 1] Computing parent1 for vertex 41, tree T_3
-[INFO][Rank 1] Parent of vertex 41 in T_3 is 39
-[INFO][Rank 1] Computing parent1 for vertex 41, tree T_4
-[INFO][Rank 1] Parent of vertex 41 in T_4 is 40
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 46
-[INFO][Rank 1] Computing parent1 for vertex 46, tree T_1
-[INFO][Rank 1] Parent of vertex 46 in T_1 is 106
-[INFO][Rank 1] Computing parent1 for vertex 46, tree T_2
-[INFO][Rank 1] Parent of vertex 46 in T_2 is 40
-[INFO][Rank 1] Computing parent1 for vertex 46, tree T_3
-[INFO][Rank 1] Parent of vertex 46 in T_3 is 43
-[INFO][Rank 1] Computing parent1 for vertex 46, tree T_4
-[INFO][Rank 1] Parent of vertex 46 in T_4 is 47
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 47
-[INFO][Rank 1] Computing parent1 for vertex 47, tree T_1
-[INFO][Rank 1] Parent of vertex 47 in T_1 is 107
-[INFO][Rank 1] Computing parent1 for vertex 47, tree T_2
-[INFO][Rank 1] Parent of vertex 47 in T_2 is 41
-[INFO][Rank 1] Computing parent1 for vertex 47, tree T_3
-[INFO][Rank 1] Parent of vertex 47 in T_3 is 45
-[INFO][Rank 1] Computing parent1 for vertex 47, tree T_4
-[INFO][Rank 1] Parent of vertex 47 in T_4 is 46
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 50
-[INFO][Rank 1] Computing parent1 for vertex 50, tree T_1
-[INFO][Rank 1] Parent of vertex 50 in T_1 is 8
-[INFO][Rank 1] Computing parent1 for vertex 50, tree T_2
-[INFO][Rank 1] Parent of vertex 50 in T_2 is 60
-[INFO][Rank 1] Computing parent1 for vertex 50, tree T_3
-[INFO][Rank 1] Parent of vertex 50 in T_3 is 48
-[INFO][Rank 1] Computing parent1 for vertex 50, tree T_4
-[INFO][Rank 1] Parent of vertex 50 in T_4 is 51
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 51
-[INFO][Rank 1] Computing parent1 for vertex 51, tree T_1
-[INFO][Rank 1] Parent of vertex 51 in T_1 is 9
-[INFO][Rank 1] Computing parent1 for vertex 51, tree T_2
-[INFO][Rank 1] Parent of vertex 51 in T_2 is 61
-[INFO][Rank 1] Computing parent1 for vertex 51, tree T_3
-[INFO][Rank 1] Parent of vertex 51 in T_3 is 53
-[INFO][Rank 1] Computing parent1 for vertex 51, tree T_4
-[INFO][Rank 1] Parent of vertex 51 in T_4 is 50
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 60
-[INFO][Rank 1] Computing parent1 for vertex 60, tree T_1
-[INFO][Rank 1] Parent of vertex 60 in T_1 is 84
-[INFO][Rank 1] Computing parent1 for vertex 60, tree T_2
-[INFO][Rank 1] Parent of vertex 60 in T_2 is 50
-[INFO][Rank 1] Computing parent1 for vertex 60, tree T_3
-[INFO][Rank 1] Parent of vertex 60 in T_3 is 62
-[INFO][Rank 1] Computing parent1 for vertex 60, tree T_4
-[INFO][Rank 1] Parent of vertex 60 in T_4 is 61
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 61
-[INFO][Rank 1] Computing parent1 for vertex 61, tree T_1
-[INFO][Rank 1] Parent of vertex 61 in T_1 is 85
-[INFO][Rank 1] Computing parent1 for vertex 61, tree T_2
-[INFO][Rank 1] Parent of vertex 61 in T_2 is 51
-[INFO][Rank 1] Computing parent1 for vertex 61, tree T_3
-[INFO][Rank 1] Parent of vertex 61 in T_3 is 64
-[INFO][Rank 1] Computing parent1 for vertex 61, tree T_4
-[INFO][Rank 1] Parent of vertex 61 in T_4 is 60
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 62
-[INFO][Rank 1] Computing parent1 for vertex 62, tree T_1
-[INFO][Rank 1] Parent of vertex 62 in T_1 is 86
-[INFO][Rank 1] Computing parent1 for vertex 62, tree T_2
-[INFO][Rank 1] Parent of vertex 62 in T_2 is 56
-[INFO][Rank 1] Computing parent1 for vertex 62, tree T_3
-[INFO][Rank 1] Parent of vertex 62 in T_3 is 60
-[INFO][Rank 1] Computing parent1 for vertex 62, tree T_4
-[INFO][Rank 1] Parent of vertex 62 in T_4 is 63
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 63
-[INFO][Rank 1] Computing parent1 for vertex 63, tree T_1
-[INFO][Rank 1] Parent of vertex 63 in T_1 is 87
-[INFO][Rank 1] Computing parent1 for vertex 63, tree T_2
-[INFO][Rank 1] Parent of vertex 63 in T_2 is 57
-[INFO][Rank 1] Computing parent1 for vertex 63, tree T_3
-[INFO][Rank 1] Parent of vertex 63 in T_3 is 65
-[INFO][Rank 1] Computing parent1 for vertex 63, tree T_4
-[INFO][Rank 1] Parent of vertex 63 in T_4 is 62
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 64
-[INFO][Rank 1] Computing parent1 for vertex 64, tree T_1
-[INFO][Rank 1] Parent of vertex 64 in T_1 is 88
-[INFO][Rank 1] Computing parent1 for vertex 64, tree T_2
-[INFO][Rank 1] Parent of vertex 64 in T_2 is 70
-[INFO][Rank 1] Computing parent1 for vertex 64, tree T_3
-[INFO][Rank 1] Parent of vertex 64 in T_3 is 61
-[INFO][Rank 1] Computing parent1 for vertex 64, tree T_4
-[INFO][Rank 1] Parent of vertex 64 in T_4 is 65
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 65
-[INFO][Rank 1] Computing parent1 for vertex 65, tree T_1
-[INFO][Rank 1] Parent of vertex 65 in T_1 is 89
-[INFO][Rank 1] Computing parent1 for vertex 65, tree T_2
-[INFO][Rank 1] Parent of vertex 65 in T_2 is 71
-[INFO][Rank 1] Computing parent1 for vertex 65, tree T_3
-[INFO][Rank 1] Parent of vertex 65 in T_3 is 63
-[INFO][Rank 1] Computing parent1 for vertex 65, tree T_4
-[INFO][Rank 1] Parent of vertex 65 in T_4 is 64
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 72
-[INFO][Rank 1] Computing parent1 for vertex 72, tree T_1
-[INFO][Rank 1] Parent of vertex 72 in T_1 is 12
-[INFO][Rank 1] Computing parent1 for vertex 72, tree T_2
-[INFO][Rank 1] Parent of vertex 72 in T_2 is 78
-[INFO][Rank 1] Computing parent1 for vertex 72, tree T_3
-[INFO][Rank 1] Parent of vertex 72 in T_3 is 74
-[INFO][Rank 1] Computing parent1 for vertex 72, tree T_4
-[INFO][Rank 1] Parent of vertex 72 in T_4 is 73
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 73
-[INFO][Rank 1] Computing parent1 for vertex 73, tree T_1
-[INFO][Rank 1] Parent of vertex 73 in T_1 is 13
-[INFO][Rank 1] Computing parent1 for vertex 73, tree T_2
-[INFO][Rank 1] Parent of vertex 73 in T_2 is 79
-[INFO][Rank 1] Computing parent1 for vertex 73, tree T_3
-[INFO][Rank 1] Parent of vertex 73 in T_3 is 76
-[INFO][Rank 1] Computing parent1 for vertex 73, tree T_4
-[INFO][Rank 1] Parent of vertex 73 in T_4 is 72
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 74
-[INFO][Rank 1] Computing parent1 for vertex 74, tree T_1
-[INFO][Rank 1] Parent of vertex 74 in T_1 is 14
-[INFO][Rank 1] Computing parent1 for vertex 74, tree T_2
-[INFO][Rank 1] Parent of vertex 74 in T_2 is 84
-[INFO][Rank 1] Computing parent1 for vertex 74, tree T_3
-[INFO][Rank 1] Parent of vertex 74 in T_3 is 72
-[INFO][Rank 1] Computing parent1 for vertex 74, tree T_4
-[INFO][Rank 1] Parent of vertex 74 in T_4 is 75
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 75
-[INFO][Rank 1] Computing parent1 for vertex 75, tree T_1
-[INFO][Rank 1] Parent of vertex 75 in T_1 is 15
-[INFO][Rank 1] Computing parent1 for vertex 75, tree T_2
-[INFO][Rank 1] Parent of vertex 75 in T_2 is 85
-[INFO][Rank 1] Computing parent1 for vertex 75, tree T_3
-[INFO][Rank 1] Parent of vertex 75 in T_3 is 77
-[INFO][Rank 1] Computing parent1 for vertex 75, tree T_4
-[INFO][Rank 1] Parent of vertex 75 in T_4 is 74
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 76
-[INFO][Rank 1] Computing parent1 for vertex 76, tree T_1
-[INFO][Rank 1] Parent of vertex 76 in T_1 is 16
-[INFO][Rank 1] Computing parent1 for vertex 76, tree T_2
-[INFO][Rank 1] Parent of vertex 76 in T_2 is 90
-[INFO][Rank 1] Computing parent1 for vertex 76, tree T_3
-[INFO][Rank 1] Parent of vertex 76 in T_3 is 73
-[INFO][Rank 1] Computing parent1 for vertex 76, tree T_4
-[INFO][Rank 1] Parent of vertex 76 in T_4 is 77
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 77
-[INFO][Rank 1] Computing parent1 for vertex 77, tree T_1
-[INFO][Rank 1] Parent of vertex 77 in T_1 is 17
-[INFO][Rank 1] Computing parent1 for vertex 77, tree T_2
-[INFO][Rank 1] Parent of vertex 77 in T_2 is 91
-[INFO][Rank 1] Computing parent1 for vertex 77, tree T_3
-[INFO][Rank 1] Parent of vertex 77 in T_3 is 75
-[INFO][Rank 1] Computing parent1 for vertex 77, tree T_4
-[INFO][Rank 1] Parent of vertex 77 in T_4 is 76
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 78
-[INFO][Rank 1] Computing parent1 for vertex 78, tree T_1
-[INFO][Rank 1] Parent of vertex 78 in T_1 is 36
-[INFO][Rank 1] Computing parent1 for vertex 78, tree T_2
-[INFO][Rank 1] Parent of vertex 78 in T_2 is 72
-[INFO][Rank 1] Computing parent1 for vertex 78, tree T_3
-[INFO][Rank 1] Parent of vertex 78 in T_3 is 80
-[INFO][Rank 1] Computing parent1 for vertex 78, tree T_4
-[INFO][Rank 1] Parent of vertex 78 in T_4 is 79
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 79
-[INFO][Rank 1] Computing parent1 for vertex 79, tree T_1
-[INFO][Rank 1] Parent of vertex 79 in T_1 is 37
-[INFO][Rank 1] Computing parent1 for vertex 79, tree T_2
-[INFO][Rank 1] Parent of vertex 79 in T_2 is 73
-[INFO][Rank 1] Computing parent1 for vertex 79, tree T_3
-[INFO][Rank 1] Parent of vertex 79 in T_3 is 82
-[INFO][Rank 1] Computing parent1 for vertex 79, tree T_4
-[INFO][Rank 1] Parent of vertex 79 in T_4 is 78
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 80
-[INFO][Rank 1] Computing parent1 for vertex 80, tree T_1
-[INFO][Rank 1] Parent of vertex 80 in T_1 is 38
-[INFO][Rank 1] Computing parent1 for vertex 80, tree T_2
-[INFO][Rank 1] Parent of vertex 80 in T_2 is 86
-[INFO][Rank 1] Computing parent1 for vertex 80, tree T_3
-[INFO][Rank 1] Parent of vertex 80 in T_3 is 78
-[INFO][Rank 1] Computing parent1 for vertex 80, tree T_4
-[INFO][Rank 1] Parent of vertex 80 in T_4 is 81
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 81
-[INFO][Rank 1] Computing parent1 for vertex 81, tree T_1
-[INFO][Rank 1] Parent of vertex 81 in T_1 is 39
-[INFO][Rank 1] Computing parent1 for vertex 81, tree T_2
-[INFO][Rank 1] Parent of vertex 81 in T_2 is 87
-[INFO][Rank 1] Computing parent1 for vertex 81, tree T_3
-[INFO][Rank 1] Parent of vertex 81 in T_3 is 83
-[INFO][Rank 1] Computing parent1 for vertex 81, tree T_4
-[INFO][Rank 1] Parent of vertex 81 in T_4 is 80
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 82
-[INFO][Rank 1] Computing parent1 for vertex 82, tree T_1
-[INFO][Rank 1] Parent of vertex 82 in T_1 is 40
-[INFO][Rank 1] Computing parent1 for vertex 82, tree T_2
-[INFO][Rank 1] Parent of vertex 82 in T_2 is 92
-[INFO][Rank 1] Computing parent1 for vertex 82, tree T_3
-[INFO][Rank 1] Parent of vertex 82 in T_3 is 79
-[INFO][Rank 1] Computing parent1 for vertex 82, tree T_4
-[INFO][Rank 1] Parent of vertex 82 in T_4 is 83
-[INFO][Rank 1] Rank 1, Thread 0: Processing vertex 83
-[INFO][Rank 1] Computing parent1 for vertex 83, tree T_1
-[INFO][Rank 1] Parent of vertex 83 in T_1 is 41
-[INFO][Rank 1] Computing parent1 for vertex 83, tree T_2
-[INFO][Rank 1] Parent of vertex 83 in T_2 is 93
-[INFO][Rank 1] Computing parent1 for vertex 83, tree T_3
-[INFO][Rank 1] Parent of vertex 83 in T_3 is 81
-[INFO][Rank 1] Computing parent1 for vertex 83, tree T_4
 [INFO][Rank 1] Parent of vertex 83 in T_4 is 82
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 84
 [INFO][Rank 1] Computing parent1 for vertex 84, tree T_1
@@ -913,16 +846,35 @@ ent1 for vertex 22, tree T_2
 [INFO][Rank 1] Computing parent1 for vertex 84, tree T_4
 [INFO][Rank 1] Parent of vertex 84 in T_4 is 85
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 85
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 105
+[INFO][Rank 0] Computing parent1 for vertex 105, tree T_1
+[INFO][Rank 0] Parent of vertex 105 in T_1 is 45
+[INFO][Rank 0] Computing parent1 for vertex 105, tree T_2
+[INFO][Rank 0] Parent of vertex 105 in T_2 is 111
+[INFO][Rank 0] Computing parent1 for vertex 105, tree T_3
 [INFO][Rank 1] Computing parent1 for vertex 85, tree T_1
 [INFO][Rank 1] Parent of vertex 85 in T_1 is 61
 [INFO][Rank 1] Computing parent1 for vertex 85, tree T_2
 [INFO][Rank 1] Parent of vertex 85 in T_2 is 75
 [INFO][Rank 1] Computing parent1 for vertex 85, tree T_3
+[INFO][Rank 0] Parent of vertex 105 in T_3 is 107
+[INFO][Rank 0] Computing parent1 for vertex 105, tree T_4
+[INFO][Rank 0] Parent of vertex 105 in T_4 is 104
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 108
+[INFO][Rank 0] Computing parent1 for vertex 108, tree T_1
+[INFO][Rank 0] Parent of vertex 108 in T_1 is 66
 [INFO][Rank 1] Parent of vertex 85 in T_3 is 88
 [INFO][Rank 1] Computing parent1 for vertex 85, tree T_4
 [INFO][Rank 1] Parent of vertex 85 in T_4 is 84
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 86
 [INFO][Rank 1] Computing parent1 for vertex 86, tree T_1
+[INFO][Rank 0] Computing parent1 for vertex 108, tree T_2
+[INFO][Rank 0] Parent of vertex 108 in T_2 is 98
+[INFO][Rank 0] Computing parent1 for vertex 108, tree T_3
+[INFO][Rank 0] Parent of vertex 108 in T_3 is 110
+[INFO][Rank 0] Computing parent1 for vertex 108, tree T_4
+[INFO][Rank 0] Parent of vertex 108 in T_4 is 109
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 109
 [INFO][Rank 1] Parent of vertex 86 in T_1 is 62
 [INFO][Rank 1] Computing parent1 for vertex 86, tree T_2
 [INFO][Rank 1] Parent of vertex 86 in T_2 is 80
@@ -947,8 +899,7 @@ ent1 for vertex 22, tree T_2
 [INFO][Rank 1] Computing parent1 for vertex 88, tree T_3
 [INFO][Rank 1] Parent of vertex 88 in T_3 is 85
 [INFO][Rank 1] Computing parent1 for vertex 88, tree T_4
-[INFO][Rank 1] Parent of[INFO][Rank 0] Rank 0: Computed displacements, displs = [0 240 ]
- vertex 88 in T_4 is 89
+[INFO][Rank 1] Parent of vertex 88 in T_4 is 89
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 89
 [INFO][Rank 1] Computing parent1 for vertex 89, tree T_1
 [INFO][Rank 1] Parent of vertex 89 in T_1 is 65
@@ -957,6 +908,28 @@ ent1 for vertex 22, tree T_2
 [INFO][Rank 1] Computing parent1 for vertex 89, tree T_3
 [INFO][Rank 1] Parent of vertex 89 in T_3 is 87
 [INFO][Rank 1] Computing parent1 for vertex 89, tree T_4
+[INFO][Rank 0] Computing parent1 for vertex 109, tree T_1
+[INFO][Rank 0] Parent of vertex 109 in T_1 is 67
+[INFO][Rank 0] Computing parent1 for vertex 109, tree T_2
+[INFO][Rank 0] Parent of vertex 109 in T_2 is 99
+[INFO][Rank 0] Computing parent1 for vertex 109, tree T_3
+[INFO][Rank 0] Parent of vertex 109 in T_3 is 112
+[INFO][Rank 0] Computing parent1 for vertex 109, tree T_4
+[INFO][Rank 0] Parent of vertex 109 in T_4 is 108
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 110
+[INFO][Rank 0] Computing parent1 for vertex 110, tree T_1
+[INFO][Rank 0] Parent of vertex 110 in T_1 is 68
+[INFO][Rank 0] Computing parent1 for vertex 110, tree T_2
+[INFO][Rank 0] Parent of vertex 110 in T_2 is 104
+[INFO][Rank 0] Computing parent1 for vertex 110, tree T_3
+[INFO][Rank 0] Parent of vertex 110 in T_3 is 108
+[INFO][Rank 0] Computing parent1 for vertex 110, tree T_4
+[INFO][Rank 0] Parent of vertex 110 in T_4 is 111
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 111
+[INFO][Rank 0] Computing parent1 for vertex 111, tree T_1
+[INFO][Rank 0] Parent of vertex 111 in T_1 is 69
+[INFO][Rank 0] Computing parent1 for vertex 111, tree T_2
+[INFO][Rank 0] Parent of vertex 111 in T_2 is 105
 [INFO][Rank 1] Parent of vertex 89 in T_4 is 88
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 90
 [INFO][Rank 1] Computing parent1 for vertex 90, tree T_1
@@ -964,29 +937,54 @@ ent1 for vertex 22, tree T_2
 [INFO][Rank 1] Computing parent1 for vertex 90, tree T_2
 [INFO][Rank 1] Parent of vertex 90 in T_2 is 76
 [INFO][Rank 1] Computing parent1 for vertex 90, tree T_3
+[INFO][Rank 0] Computing parent1 for vertex 111, tree T_3
+[INFO][Rank 0] Parent of vertex 111 in T_3 is 113
+[INFO][Rank 0] Computing parent1 for vertex 111, tree T_4
+[INFO][Rank 0] Parent of vertex 111 in T_4 is 110
 [INFO][Rank 1] Parent of vertex 90 in T_3 is 92
 [INFO][Rank 1] Computing parent1 for vertex 90, tree T_4
 [INFO][Rank 1] Parent of vertex 90 in T_4 is 91
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 112
+[INFO][Rank 0] Computing parent1 for vertex 112, tree T_1
+[INFO][Rank 0] Parent of vertex 112 in T_1 is 70
+[INFO][Rank 0] Computing parent1 for vertex 112, tree T_2
+[INFO][Rank 0] Parent of vertex 112 in T_2 is 118
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 91
 [INFO][Rank 1] Computing parent1 for vertex 91, tree T_1
 [INFO][Rank 1] Parent of vertex 91 in T_1 is 115
 [INFO][Rank 1] Computing parent1 for vertex 91, tree T_2
+[INFO][Rank 0] Computing parent1 for vertex 112, tree T_3
+[INFO][Rank 0] Parent of vertex 112 in T_3 is 109
+[INFO][Rank 0] Computing parent1 for vertex 112, tree T_4
+[INFO][Rank 0] Parent of vertex 112 in T_4 is 113
 [INFO][Rank 1] Parent of vertex 91 in T_2 is 77
 [INFO][Rank 1] Computing parent1 for vertex 91, tree T_3
 [INFO][Rank 1] Parent of vertex 91 in T_3 is 94
+[INFO][Rank 0] Rank 0, Thread 0: Processing vertex 113
+[INFO][Rank 0] Computing parent1 for vertex 113, tree T_1
+[INFO][Rank 0] Parent of vertex 113 in T_1 is 71
+[INFO][Rank 0] Computing parent1 for vertex 113, tree T_2
 [INFO][Rank 1] Computing parent1 for vertex 91, tree T_4
 [INFO][Rank 1] Parent of vertex 91 in T_4 is 90
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 92
 [INFO][Rank 1] Computing parent1 for vertex 92, tree T_1
 [INFO][Rank 1] Parent of vertex 92 in T_1 is 116
 [INFO][Rank 1] Computing parent1 for vertex 92, tree T_2
+[INFO][Rank 0] Parent of vertex 113 in T_2 is 119
+[INFO][Rank 0] Computing parent1 for vertex 113, tree T_3
+[INFO][Rank 0] Parent of vertex 113 in T_3 is 111
+[INFO][Rank 0] Computing parent1 for vertex 113, tree T_4
 [INFO][Rank 1] Parent of vertex 92 in T_2 is 82
 [INFO][Rank 1] Computing parent1 for vertex 92, tree T_3
 [INFO][Rank 1] Parent of vertex 92 in T_3 is 90
+[INFO][Rank 0] Parent of vertex 113 in T_4 is 112
+[INFO][Rank 0] Rank 0: Parallel IST construction completed.
 [INFO][Rank 1] Computing parent1 for vertex 92, tree T_4
 [INFO][Rank 1] Parent of vertex 92 in T_4 is 93
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 93
 [INFO][Rank 1] Computing parent1 for vertex 93, tree T_1
+[INFO][Rank 0] Rank 0: Local IST construction completed, parents size = 60
+[INFO][Rank 0] Rank 0: Entering gather_parents, local_parents size = 60
 [INFO][Rank 1] Parent of vertex 93 in T_1 is 117
 [INFO][Rank 1] Computing parent1 for vertex 93, tree T_2
 [INFO][Rank 1] Parent of vertex 93 in T_2 is 83
@@ -1005,6 +1003,7 @@ ent1 for vertex 22, tree T_2
 [INFO][Rank 1] Parent of vertex 94 in T_4 is 95
 [INFO][Rank 1] Rank 1, Thread 0: Processing vertex 95
 [INFO][Rank 1] Computing parent1 for vertex 95, tree T_1
+[INFO][Rank 0] Rank 0: Gathering counts, local_size = 240
 [INFO][Rank 1] Parent of vertex 95 in T_1 is 119
 [INFO][Rank 1] Computing parent1 for vertex 95, tree T_2
 [INFO][Rank 1] Parent of vertex 95 in T_2 is 89
@@ -1104,31 +1103,32 @@ ent1 for vertex 22, tree T_2
 [INFO][Rank 1] Parent of vertex 119 in T_4 is 118
 [INFO][Rank 1] Rank 1: Parallel IST construction completed.
 [INFO][Rank 1] Rank 1: Entering gather_parents, local_parents size = 60
+[INFO][Rank 0] Rank 0: Computed displacements, displs = [0 240 ]
 [INFO][Rank 1] Rank 1: Gathering counts, local_size = 240
-[INFO][Rank 1] Rank 1: Calling MPI_Gatherv, flat_local_parents size = 240
 [INFO][Rank 0] Rank 0: Calling MPI_Gatherv, flat_local_parents size = 240
 [INFO][Rank 0] Rank 0: MPI_Gatherv completed.
+[INFO][Rank 1] Rank 1: Calling MPI_Gatherv, flat_local_parents size = 240
+[INFO][Rank 1] Rank 1: MPI_Gatherv completed.
 [INFO][Rank 0] Rank 0: Reconstructed all_parents.
 [INFO][Rank 0] Rank 0: Gathered all parents, size = 120
-[INFO][Rank 1] Rank 1: MPI_Gatherv completed.
 [INFO][Rank 0] Output written to data/output/ists_B5.txt
 [INFO][Rank 0] IST construction completed. Results written to data/output/ists_B5.txt
-[INFO][Rank 0] Timing: Graph=0.026388s, Partition=0.005347s, LocalVertices=0.000362s, IST=0.002608s, Gather=0.013009s, Output=0.010902s, Total=0.058616s
+[INFO][Rank 0] Timing: Graph=0.024357s, Partition=0.002074s, LocalVertices=0.000033s, IST=0.005631s, Gather=0.001480s, Output=0.045230s, Total=0.078807s
 	Command being timed: "mpirun -np 2 --oversubscribe ./bubble_sort_ist"
-	User time (seconds): 0.19
+	User time (seconds): 0.15
 	System time (seconds): 0.08
-	Percent of CPU this job got: 59%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.47
+	Percent of CPU this job got: 50%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.48
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 85604
+	Maximum resident set size (kbytes): 85696
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 63
-	Minor (reclaiming a frame) page faults: 9207
-	Voluntary context switches: 2517
-	Involuntary context switches: 25
+	Major (requiring I/O) page faults: 81
+	Minor (reclaiming a frame) page faults: 9201
+	Voluntary context switches: 2765
+	Involuntary context switches: 23
 	Swaps: 0
 	File system inputs: 600
 	File system outputs: 112

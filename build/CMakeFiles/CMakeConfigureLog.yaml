@@ -4021,3 +4021,399 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-LIBRed"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-LIBRed"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-LIBRed'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5fe11/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5fe11.dir/build.make CMakeFiles/cmTC_5fe11.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-LIBRed'
+        Building C object CMakeFiles/cmTC_5fe11.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_5fe11.dir/test_mpi.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-LIBRed/test_mpi.c
+        Linking C executable cmTC_5fe11
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe11.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5fe11.dir/test_mpi.c.o -o cmTC_5fe11  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-LIBRed'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-q3DgLs"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-q3DgLs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-q3DgLs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f4ca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9f4ca.dir/build.make CMakeFiles/cmTC_9f4ca.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-q3DgLs'
+        Building CXX object CMakeFiles/cmTC_9f4ca.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_9f4ca.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-q3DgLs/test_mpi.cpp
+        Linking CXX executable cmTC_9f4ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f4ca.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_9f4ca.dir/test_mpi.cpp.o -o cmTC_9f4ca  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-q3DgLs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-F6kdyo"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-F6kdyo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-F6kdyo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3cb7d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3cb7d.dir/build.make CMakeFiles/cmTC_3cb7d.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-F6kdyo'
+        Building CXX object CMakeFiles/cmTC_3cb7d.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_3cb7d.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-F6kdyo/test_mpi.cpp
+        Linking CXX executable cmTC_3cb7d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cb7d.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_3cb7d.dir/test_mpi.cpp.o -o cmTC_3cb7d  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-F6kdyo'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-r68ygu"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-r68ygu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-r68ygu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b48d5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b48d5.dir/build.make CMakeFiles/cmTC_b48d5.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-r68ygu'
+        Building C object CMakeFiles/cmTC_b48d5.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b48d5.dir/test_mpi.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-r68ygu/test_mpi.c
+        Linking C executable cmTC_b48d5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b48d5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b48d5.dir/test_mpi.c.o -o cmTC_b48d5  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-r68ygu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-vuyEGB"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-vuyEGB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-vuyEGB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bcd2c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bcd2c.dir/build.make CMakeFiles/cmTC_bcd2c.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-vuyEGB'
+        Building CXX object CMakeFiles/cmTC_bcd2c.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_bcd2c.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-vuyEGB/test_mpi.cpp
+        Linking CXX executable cmTC_bcd2c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd2c.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_bcd2c.dir/test_mpi.cpp.o -o cmTC_bcd2c  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-vuyEGB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-FgS0cB"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-FgS0cB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-FgS0cB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1dfc5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1dfc5.dir/build.make CMakeFiles/cmTC_1dfc5.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-FgS0cB'
+        Building CXX object CMakeFiles/cmTC_1dfc5.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_1dfc5.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-FgS0cB/test_mpi.cpp
+        Linking CXX executable cmTC_1dfc5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dfc5.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_1dfc5.dir/test_mpi.cpp.o -o cmTC_1dfc5  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-FgS0cB'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xEL4jF"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xEL4jF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xEL4jF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ceb62/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ceb62.dir/build.make CMakeFiles/cmTC_ceb62.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xEL4jF'
+        Building C object CMakeFiles/cmTC_ceb62.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ceb62.dir/test_mpi.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xEL4jF/test_mpi.c
+        Linking C executable cmTC_ceb62
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb62.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ceb62.dir/test_mpi.c.o -o cmTC_ceb62  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-xEL4jF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Srlnx3"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Srlnx3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Srlnx3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d312/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d312.dir/build.make CMakeFiles/cmTC_1d312.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Srlnx3'
+        Building CXX object CMakeFiles/cmTC_1d312.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_1d312.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Srlnx3/test_mpi.cpp
+        Linking CXX executable cmTC_1d312
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d312.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_1d312.dir/test_mpi.cpp.o -o cmTC_1d312  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Srlnx3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lpuc9n"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lpuc9n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lpuc9n'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ee25/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9ee25.dir/build.make CMakeFiles/cmTC_9ee25.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lpuc9n'
+        Building CXX object CMakeFiles/cmTC_9ee25.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_9ee25.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lpuc9n/test_mpi.cpp
+        Linking CXX executable cmTC_9ee25
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ee25.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_9ee25.dir/test_mpi.cpp.o -o cmTC_9ee25  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-lpuc9n'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-JBc9Z9"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-JBc9Z9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-JBc9Z9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ecfb7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ecfb7.dir/build.make CMakeFiles/cmTC_ecfb7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-JBc9Z9'
+        Building C object CMakeFiles/cmTC_ecfb7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ecfb7.dir/test_mpi.c.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-JBc9Z9/test_mpi.c
+        Linking C executable cmTC_ecfb7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecfb7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ecfb7.dir/test_mpi.c.o -o cmTC_ecfb7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-JBc9Z9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Q0OhWx"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Q0OhWx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Q0OhWx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_05248/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_05248.dir/build.make CMakeFiles/cmTC_05248.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Q0OhWx'
+        Building CXX object CMakeFiles/cmTC_05248.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_05248.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Q0OhWx/test_mpi.cpp
+        Linking CXX executable cmTC_05248
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05248.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_05248.dir/test_mpi.cpp.o -o cmTC_05248  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-Q0OhWx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-AEmAa7"
+      binary: "/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-AEmAa7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pg"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-AEmAa7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c7da7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c7da7.dir/build.make CMakeFiles/cmTC_c7da7.dir/build
+        gmake[1]: Entering directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-AEmAa7'
+        Building CXX object CMakeFiles/cmTC_c7da7.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -pg  -std=gnu++17 -o CMakeFiles/cmTC_c7da7.dir/test_mpi.cpp.o -c /mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-AEmAa7/test_mpi.cpp
+        Linking CXX executable cmTC_c7da7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7da7.dir/link.txt --verbose=1
+        /usr/bin/c++  -pg  CMakeFiles/cmTC_c7da7.dir/test_mpi.cpp.o -o cmTC_c7da7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/mnt/c/Users/alius/Desktop/PDC_project/Project/build/CMakeFiles/CMakeScratch/TryCompile-AEmAa7'
+        
+      exitCode: 0
+...
